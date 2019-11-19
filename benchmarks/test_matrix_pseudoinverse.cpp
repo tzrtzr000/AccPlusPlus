@@ -14,6 +14,7 @@ authorship.
 // X = (A'A)^-1*A'*B
 // for various dimension sizes
 
+#include <stdio.h>
 #include <cstdio>
 #include <iostream>
 #include <sys/time.h>
@@ -23,8 +24,8 @@ authorship.
 // GSL can't coexist with Armadillo due to enum conflicts
 
 // Turn each one on one at a time to make the spreadsheet
-#define TEST_OPENCV
-//#define TEST_EIGEN
+// #define TEST_OPENCV
+#define TEST_EIGEN
 //#define TEST_ARMA
 //#define TEST_GSL
 
@@ -91,7 +92,9 @@ int main()
 
 #ifdef TEST_EIGEN
         //cout << "Eigen: " << RunEigen(N, M, A, B, iterations) << endl;
-        cout <<  RunEigen(N, M, A, B, iterations) << " ";
+        // cout <<"iterations: " <<  iterations << endl;
+        // cout <<  RunEigen(N, M, A, B, iterations) << " ";
+        printf("N: %d, M: %d, iterations:%d, runtime: %f ms\n",  N, M, iterations, RunEigen(N, M, A, B, iterations));
 #endif
 
 #ifdef TEST_ARMA
