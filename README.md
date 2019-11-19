@@ -5,11 +5,11 @@ source code/output is collected by each profiler
 For all: 
 1. Run gprof on <a href="http://nghiaho.com/?p=1726" target="_blank">Pseudo Inverse Test by Nghia Ho's blog</a> under **_./benchmarks/test_matrix_pseudoinverse.cpp_** on:
 
-        i.Eigen
-        2.Armadillo + OpenBLAS
-        3.Armadillo + Atlas (no multi-core supportout of the box???)
-        4.OpenCV
-        5.GSL?
+- [x] Eigen
+- [ ] Armadillo + OpenBLAS
+- [ ] Armadillo + Atlas (no multi-core supportout of the box???)
+- [ ] OpenCV
+- [ ] GSL?
 
 To run opencv, first clone to <__open_cv_dir__>, then run bash to install: 
 ```bash
