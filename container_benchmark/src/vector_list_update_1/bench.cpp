@@ -162,11 +162,11 @@ struct bench_fill_back {
         new_graph<T>("fill_back", "us");
 
         auto sizes = { 100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000, 900000, 1000000 };
-        bench<std::vector<T>, microseconds, Empty, FillBack>("vector", sizes);
-        bench<std::list<T>,   microseconds, Empty, FillBack>("list",   sizes);
+        //bench<std::vector<T>, microseconds, Empty, FillBack>("vector", sizes);
+        //bench<std::list<T>,   microseconds, Empty, FillBack>("list",   sizes);
         bench<std::deque<T>,  microseconds, Empty, FillBack>("deque",  sizes);
 
-        bench<std::vector<T>, microseconds, Empty, ReserveSize, FillBack>("vector_reserve", sizes);
+        //ench<std::vector<T>, microseconds, Empty, ReserveSize, FillBack>("vector_reserve", sizes);
     }
 };
 
@@ -264,8 +264,8 @@ struct bench_sort {
         new_graph<T>("sort", "ms");
 
         auto sizes = {100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000, 900000, 1000000};
-        bench<std::vector<T>, milliseconds, FilledRandom, Sort>("vector", sizes);
-        bench<std::list<T>,   milliseconds, FilledRandom, Sort>("list",   sizes);
+        //bench<std::vector<T>, milliseconds, FilledRandom, Sort>("vector", sizes);
+        //bench<std::list<T>,   milliseconds, FilledRandom, Sort>("list",   sizes);
         bench<std::deque<T>,  milliseconds, FilledRandom, Sort>("deque",  sizes);
     }
 };
@@ -383,6 +383,7 @@ struct bench_find {
 template<typename ...Types>
 void bench_all(){
     bench_types<bench_fill_back,        Types...>();
+    /*
     bench_types<bench_emplace_back,     Types...>();
     bench_types<bench_fill_front,       Types...>();
     bench_types<bench_emplace_front,    Types...>();
@@ -396,24 +397,27 @@ void bench_all(){
     bench_types<bench_erase_10,         Types...>();
     bench_types<bench_erase_25,         Types...>();
     bench_types<bench_erase_50,         Types...>();
+    
 
 
     // The following are really slow so run only for limited set of data
     bench_types<bench_find,             TrivialSmall, TrivialMedium, TrivialLarge>();
     bench_types<bench_number_crunching, TrivialSmall, TrivialMedium>();
+    */
 }
 
 int main(){
     //Launch all the graphs
     bench_all<
-        TrivialSmall,
-        TrivialMedium,
-        TrivialLarge,
-        TrivialHuge,
-        TrivialMonster,
-        NonTrivialStringMovable,
-        NonTrivialStringMovableNoExcept,
-        NonTrivialArray<32> >();
+        TrivialSmall//,
+        //TrivialMedium,
+        //TrivialLarge,
+        //TrivialHuge,
+        //TrivialMonster,
+        //NonTrivialStringMovable,
+        //NonTrivialStringMovableNoExcept,
+        //NonTrivialArray<32> 
+        >();
 
     //Generate the graphs
     graphs::output(graphs::Output::GOOGLE);
