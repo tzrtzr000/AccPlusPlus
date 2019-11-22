@@ -91,4 +91,4 @@ push_back_line_by_line.o: push_back.cpp
 
     ![alt text](./ref/mem_slob_cdf.PNG "memory slabs' CDF")
 
-    - [ ] "psudo-deep copy" upon value assignment (Lvalue vs Rvalue)
+    - [ ] "psudo-deep copy" upon value assignment (<a href="https://www.artima.com/cppsource/rvalue.html" target="_blank">Lvalue vs Rvalue</a>): 
