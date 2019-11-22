@@ -66,7 +66,7 @@ gprof ./push_back.o gmon.out | tee push_back.prof  | gprof2dot  -n0 -e0| dot -Tp
 ```
 sample output :
 
-<img src="./benchmarks/simple_push_back/func_dag.png" width="2000" height="800" />
+<img src="./benchmarks/simple_push_back/func_dag.png" width="1000" height="600" />
 <!-- ![alt text](./benchmarks/simple_push_back/func_dag.png "push_back DAG") -->
 
 To generate <a href="https://ftp.gnu.org/pub/old-gnu/Manuals/gprof-2.9.1/html_node/gprof_17.html" target="_blank"> __line by line profliling__</a>, add similar contents as for simple_push_back (we indeed use gcov instead):  
