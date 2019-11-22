@@ -9,7 +9,7 @@ For all:
 - [x] Armadillo + OpenBLAS
 - [x] Armadillo + Atlas (no multi-core supportout of the box???)
 - [x] OpenCV
-- [ ] Replace the content of <a href="https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html" target="_blank">```benchmarks/Wicht_STL_synthetic/Makefile``` </a>.
+- [ ] Replace the content of <a href="./benchmarks/Wicht_STL_synthetic/Makefile" target="_blank">```benchmarks/Wicht_STL_synthetic/Makefile``` </a>.
 
 To run opencv, first clone to <__project_dir__> (parent dir of AccPlusPlus), then run bash to install: 
 ```bash
