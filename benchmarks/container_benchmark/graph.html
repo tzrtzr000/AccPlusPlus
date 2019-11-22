@@ -1,0 +1,262 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load('visualization', '1.0', {'packages':['corechart']});</script>
+</head>
+<body>
+<script type="text/javascript">
+function draw_fill_back___Trivial_8_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector_reserve', 'deque', 'vector', 'list'],
+['100000', 6121, 6958, 6389, 28951],
+['200000', 12119, 12398, 12902, 58415],
+['300000', 18413, 18735, 19407, 88181],
+['400000', 24222, 24914, 25487, 125072],
+['500000', 30236, 30861, 31793, 143790],
+['600000', 38913, 37156, 38931, 176286],
+['700000', 43494, 43986, 45179, 209557],
+['800000', 47975, 49709, 51043, 230743],
+['900000', 54205, 55952, 57094, 256705],
+['1000000', 59892, 63533, 63619, 285598],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___Trivial_8_'));
+var options = {curveType: "function",title: "fill_back - Trivial<8>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___Trivial_8_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___Trivial_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector_reserve', 'deque', 'vector', 'list'],
+['100000', 6226, 8635, 6581, 30303],
+['200000', 12510, 13912, 13300, 57789],
+['300000', 18627, 21392, 21576, 87106],
+['400000', 24767, 27865, 27007, 113366],
+['500000', 30925, 34685, 32736, 144291],
+['600000', 37109, 41774, 44485, 176115],
+['700000', 42321, 48772, 53273, 203641],
+['800000', 48676, 55820, 60776, 230017],
+['900000', 54589, 63810, 68356, 259516],
+['1000000', 61020, 70047, 71383, 298348],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___Trivial_32_'));
+var options = {curveType: "function",title: "fill_back - Trivial<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___Trivial_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___Trivial_128_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector_reserve', 'deque', 'vector', 'list'],
+['100000', 6345, 9823, 8805, 29100],
+['200000', 13555, 20308, 21168, 59078],
+['300000', 26796, 30608, 39385, 89180],
+['400000', 36848, 39883, 47855, 120720],
+['500000', 44348, 54879, 56828, 156952],
+['600000', 54628, 67807, 83512, 189868],
+['700000', 62605, 81782, 92620, 223129],
+['800000', 74227, 88075, 101323, 256360],
+['900000', 79450, 106408, 112174, 297451],
+['1000000', 89450, 116055, 121162, 327259],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___Trivial_128_'));
+var options = {curveType: "function",title: "fill_back - Trivial<128>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___Trivial_128_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___Trivial_1024_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector_reserve', 'deque', 'vector', 'list'],
+['100000', 33428, 36059, 70169, 49778],
+['200000', 64890, 81720, 136035, 102968],
+['300000', 99358, 127374, 237256, 160421],
+['400000', 133960, 168908, 267834, 209133],
+['500000', 167231, 213109, 298597, 263860],
+['600000', 206558, 259449, 514993, 320907],
+['700000', 242463, 303268, 515041, 370851],
+['800000', 289172, 342871, 539265, 421260],
+['900000', 310619, 391561, 571765, 484858],
+['1000000', 340562, 433742, 611957, 532749],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___Trivial_1024_'));
+var options = {curveType: "function",title: "fill_back - Trivial<1024>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___Trivial_1024_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___Trivial_4096_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector_reserve', 'deque', 'vector', 'list'],
+['100000', 109000, 109151, 257141, 119719],
+['200000', 222778, 227773, 521887, 247711],
+['300000', 335965, 341365, 929076, 376794],
+['400000', 448207, 454375, 1049078, 521456],
+['500000', 573732, 578895, 1134152, 634821],
+['600000', 680464, 693531, 1820856, 758235],
+['700000', 804392, 811678, 1951488, 897425],
+['800000', 912226, 925772, 2037353, 1019511],
+['900000', 1023860, 1039886, 2155214, 1144071],
+['1000000', 1137067, 1173526, 2280624, 1281667],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___Trivial_4096_'));
+var options = {curveType: "function",title: "fill_back - Trivial<4096>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___Trivial_4096_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___NonTrivialStringMovable(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector_reserve', 'deque', 'vector', 'list'],
+['100000', 14352, 20710, 35228, 35513],
+['200000', 31124, 30708, 72021, 71478],
+['300000', 43214, 47595, 132089, 108294],
+['400000', 59249, 62341, 146906, 146085],
+['500000', 73109, 81111, 160280, 180514],
+['600000', 86241, 93824, 288648, 218928],
+['700000', 102054, 110221, 308570, 256609],
+['800000', 119722, 125927, 324282, 289731],
+['900000', 131632, 139676, 341223, 326171],
+['1000000', 146607, 154912, 352345, 365057],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___NonTrivialStringMovable'));
+var options = {curveType: "function",title: "fill_back - NonTrivialStringMovable",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___NonTrivialStringMovable');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___NonTrivialStringMovableNoExcept(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector_reserve', 'deque', 'vector', 'list'],
+['100000', 14863, 21000, 32484, 35602],
+['200000', 29380, 31447, 66146, 72287],
+['300000', 43665, 46714, 117634, 111325],
+['400000', 57750, 63912, 134773, 146085],
+['500000', 71763, 79324, 147166, 179663],
+['600000', 89933, 96305, 238280, 217577],
+['700000', 101358, 121472, 252130, 256221],
+['800000', 117926, 139174, 267400, 295279],
+['900000', 132231, 141698, 278866, 326127],
+['1000000', 146156, 156680, 298286, 363677],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___NonTrivialStringMovableNoExcept'));
+var options = {curveType: "function",title: "fill_back - NonTrivialStringMovableNoExcept",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___NonTrivialStringMovableNoExcept');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___NonTrivialArray_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector_reserve', 'deque', 'vector', 'list'],
+['100000', 6074, 8236, 18805, 27922],
+['200000', 12187, 13953, 38737, 57810],
+['300000', 18261, 22034, 70635, 85683],
+['400000', 24051, 27298, 75658, 116369],
+['500000', 30615, 35365, 81714, 145129],
+['600000', 37540, 43990, 141502, 171845],
+['700000', 41979, 48162, 149235, 200407],
+['800000', 49057, 55195, 153555, 230977],
+['900000', 54863, 62439, 158969, 257765],
+['1000000', 61734, 68515, 166429, 284824],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___NonTrivialArray_32_'));
+var options = {curveType: "function",title: "fill_back - NonTrivialArray<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___NonTrivialArray_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_all(){
+draw_fill_back___Trivial_8_();
+draw_fill_back___Trivial_32_();
+draw_fill_back___Trivial_128_();
+draw_fill_back___Trivial_1024_();
+draw_fill_back___Trivial_4096_();
+draw_fill_back___NonTrivialStringMovable();
+draw_fill_back___NonTrivialStringMovableNoExcept();
+draw_fill_back___NonTrivialArray_32_();
+}
+google.setOnLoadCallback(draw_all);
+</script>
+
+<div id="graph_fill_back___Trivial_8_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___Trivial_8_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___Trivial_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___Trivial_32_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___Trivial_128_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___Trivial_128_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___Trivial_1024_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___Trivial_1024_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___Trivial_4096_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___Trivial_4096_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___NonTrivialStringMovable" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___NonTrivialStringMovable" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___NonTrivialStringMovableNoExcept" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___NonTrivialStringMovableNoExcept" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___NonTrivialArray_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___NonTrivialArray_32_" type="button" value="Logarithmic scale">
+</body>
+</html>
