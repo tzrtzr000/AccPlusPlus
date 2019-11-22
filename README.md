@@ -9,22 +9,22 @@ For all:
 - [x] Armadillo + OpenBLAS
 - [x] Armadillo + Atlas (no multi-core supportout of the box???)
 - [x] OpenCV
-- [ ] GSL?
+- [ ] Replace the content of <a href="https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html" target="_blank">```benchmarks/Wicht_STL_synthetic/Makefile``` </a>.
 
-To run opencv, first clone to <__open_cv_dir__>, then run bash to install: 
+To run opencv, first clone to <__project_dir__> (parent dir of AccPlusPlus), then run bash to install: 
 ```bash
+cd ../
 git clone https://github.com/opencv/opencv.git. 
-cd  <__project_dir_>/AccPlusPlus
+cd  AccPlusPlus
 ./build_open_cv.sh
 ```
 
-To compile benchmarks  ~~(only eigen for now)~~
+To compile & generate profiled benchmark data
 
 Eigen:
 ```
-cd benchmarks
-make eigen
-./eigen
+cd benchmarks/eigen
+make 
 ```
 
 Armadillo + OpenBLAS:
@@ -45,15 +45,23 @@ cd benchmarks/opencv
 make
 ```
 
-(For arma and opencv benchmark, I removed -O3 flag when compile since gprof cannot work)
+
+(FrankieD4C: For arma and opencv benchmark, I removed -O3 flag when compile since gprof cannot work)
 
 Full tutorial <a href="https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html" target="_blank">Pseudo Inverse Test by Nghia Ho's blog</a>  
 
 2. Plot the histogram of leaf function like Figure 3 by [Gope et al](http://pharm.ece.wisc.edu/papers/isca17_dgope.pdf) 
 
-![alt text](./ref/figure_leaf_function.PNG "Logo Title Text 1")
+![alt text](./ref/figure_leaf_function.PNG "leaf function distribution")
 
 3. Find the "bottleneck" (performance, power, etc)
 
+    - [ ] Granularity of the analysis: Memory address, Memory size, leaf function, "semantic operations" (what the program mainly does) 
+
 4. Discuss with Prof. by this Friday (11/22)
 
+    - [ ] Memory slab plot for memory allocation like Figure  8(a), similar to the idea of "heap manager" for PHP acceleration. 
+
+    ![alt text](./ref/mem_slob_cdf.PNG "memory slabs' CDF")
+
+    - [ ] "psudo-deep copy" upon value assignment (Lvalue vs Rvalue)
