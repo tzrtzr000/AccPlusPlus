@@ -1,8 +1,8 @@
 	
 push_back.prof: push_back.o 
 	./push_back.o
-	gprof ./push_back.o gmon.out  >> push_back.prof
-	# gprof ./push_back.o gmon.out | tee push_back.stats_graph  | gprof2dot  -n0 -e0| dot -Tpng -o func_dag.png 
+	# gprof ./push_back.o gmon.out  >> push_back.prof
+	gprof ./push_back.o gmon.out | tee push_back.prof  | gprof2dot  -n0.15 -e0.15| dot -Tpng -o func_dag_t.png 
 	# `pkg-config opencv --cflags --libs` -lopencv_core -lopencv_highgui -lopencv_imgproc  -L/usr/local/lib -lopencv_core  -lopencv_highgui 
 
 	

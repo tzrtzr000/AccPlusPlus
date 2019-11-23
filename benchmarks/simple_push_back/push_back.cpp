@@ -7,7 +7,7 @@
 #include <stdexcept>
 #include <vector>
 
-#define test 500000
+#define test 3000000
 // #define test 1000000
 using namespace std; //declare for visability so, use cout instead of std::cout
 
