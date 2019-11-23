@@ -58,7 +58,7 @@ cd benchmarks/opencv
 make
 ```
 
-Full tutorial <a href="https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html" target="_blank">Pseudo Inverse Test by Nghia Ho's blog</a>  
+Full tutorial <a href="http://nghiaho.com/?p=1726" target="_blank">Pseudo Inverse Test by Nghia Ho's blog</a>  
 
 To generate  __function directed acyclic graph (DAG)__, run change gprof instruction in Makefile to pipe to  gprof. For example, as in Simple_push_back
 ```
