@@ -1,0 +1,348 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 50.02      0.01     0.01    28431     0.00     0.00  __gnu_cxx::__exchange_and_add(int volatile*, int)
+ 50.02      0.02     0.01     1588     0.01     0.01  cv::Mat::operator=(cv::Mat const&)
+  0.00      0.02     0.00  1177422     0.00     0.00  cv::MatStep::operator[](int)
+  0.00      0.02     0.00  1167803     0.00     0.00  cv::Mat::release()
+  0.00      0.02     0.00   214347     0.00     0.00  cv::MatStep::operator[](int) const
+  0.00      0.02     0.00    28249     0.00     0.00  __gthread_active_p()
+  0.00      0.02     0.00    24413     0.00     0.00  __gnu_cxx::__exchange_and_add_dispatch(int*, int)
+  0.00      0.02     0.00    20647     0.00     0.00  cv::_InputArray::init(int, void const*)
+  0.00      0.02     0.00    13500     0.00     0.00  cv::_InputArray::~_InputArray()
+  0.00      0.02     0.00    13500     0.00     0.00  cv::Size_<int>::Size_()
+  0.00      0.02     0.00     6353     0.00     0.00  cv::_InputArray::_InputArray()
+  0.00      0.02     0.00     6353     0.00     0.00  cv::_InputArray::_InputArray(cv::Mat const&)
+  0.00      0.02     0.00     6353     0.00     0.00  cv::_OutputArray::~_OutputArray()
+  0.00      0.02     0.00     4765     0.00     0.00  cv::_OutputArray::_OutputArray(cv::Mat&)
+  0.00      0.02     0.00     3190     0.00     0.00  cv::Mat::~Mat()
+  0.00      0.02     0.00     2385     0.00     0.00  std::remove_reference<cv::Mat&>::type&& std::move<cv::Mat&>(cv::Mat&)
+  0.00      0.02     0.00     1591     0.00     0.00  cv::Mat::empty() const
+  0.00      0.02     0.00     1590     0.00     0.00  cv::Mat::operator=(cv::Mat&&)
+  0.00      0.02     0.00     1589     0.00     0.00  cv::Mat::total() const
+  0.00      0.02     0.00     1588     0.00     0.00  cv::_OutputArray::_OutputArray()
+  0.00      0.02     0.00     1588     0.00     0.00  cv::_InputOutputArray::_InputOutputArray(cv::Mat&)
+  0.00      0.02     0.00     1588     0.00     0.00  cv::_InputOutputArray::~_InputOutputArray()
+  0.00      0.02     0.00     1588     0.00     0.00  cv::Size_<int>::Size_(int, int)
+  0.00      0.02     0.00      808     0.00     0.00  cv::MatSize::MatSize(int*)
+  0.00      0.02     0.00      795     0.00     0.00  cv::Mat::Mat(cv::Mat&&)
+  0.00      0.02     0.00      795     0.00     0.00  cv::MatStep::MatStep()
+  0.00      0.02     0.00      795     0.00     0.00  std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<cv::Mat> >, std::is_move_constructible<cv::Mat>, std::is_move_assignable<cv::Mat> >::value, void>::type std::swap<cv::Mat>(cv::Mat&, cv::Mat&)
+  0.00      0.02     0.00      794     0.00     0.00  cv::_InputArray::init(int, void const*, cv::Size_<int>)
+  0.00      0.02     0.00      794     0.00     0.00  cv::_InputArray::_InputArray(double const&)
+  0.00      0.02     0.00      794     0.00     0.00  cv::Mat::operator=(cv::MatExpr const&)
+  0.00      0.02     0.00      794     0.00     0.00  cv::Size_<int>::operator=(cv::Size_<int> const&)
+  0.00      0.02     0.00      794     0.00     0.00  cv::MatExpr::~MatExpr()
+  0.00      0.02     0.00      794     0.00     0.00  cv::Mat::type() const
+  0.00      0.02     0.00      794     0.00     0.00  cv::Ptr<cv::DenseOpticalFlow>::operator->() const
+  0.00      0.02     0.00      794     0.00     0.00  cv::MatSize::operator()() const
+  0.00      0.02     0.00      794     0.00     0.00  std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::get() const
+  0.00      0.02     0.00       13     0.00     0.00  cv::Mat::Mat()
+  0.00      0.02     0.00       13     0.00     0.00  cv::MatStep::MatStep(unsigned long)
+  0.00      0.02     0.00        2     0.00     5.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+  0.00      0.02     0.00        1     0.00     5.00  cv::Ptr<cv::DISOpticalFlow>::~Ptr()
+  0.00      0.02     0.00        1     0.00     0.00  cv::Ptr<cv::DenseOpticalFlow>::Ptr<cv::DISOpticalFlow>(cv::Ptr<cv::DISOpticalFlow>&&)
+  0.00      0.02     0.00        1     0.00     5.00  cv::Ptr<cv::DenseOpticalFlow>::~Ptr()
+  0.00      0.02     0.00        1     0.00     0.00  cv::samples::findFileOrKeep(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool)
+  0.00      0.02     0.00        1     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+  0.00      0.02     0.00        1     0.00     5.00  std::shared_ptr<cv::DISOpticalFlow>::~shared_ptr()
+  0.00      0.02     0.00        1     0.00     0.00  std::shared_ptr<cv::DenseOpticalFlow>::shared_ptr<cv::DISOpticalFlow, void>(std::shared_ptr<cv::DISOpticalFlow>&&)
+  0.00      0.02     0.00        1     0.00     5.00  std::shared_ptr<cv::DenseOpticalFlow>::~shared_ptr()
+  0.00      0.02     0.00        1     0.00     5.00  std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  0.00      0.02     0.00        1     0.00     0.00  std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::DISOpticalFlow, void>(std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>&&)
+  0.00      0.02     0.00        1     0.00     5.00  std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  0.00      0.02     0.00        1     0.00     0.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::_M_swap(std::__shared_count<(__gnu_cxx::_Lock_policy)2>&)
+  0.00      0.02     0.00        1     0.00     0.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count()
+  0.00      0.02     0.00        1     0.00    10.00  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  0.00      0.02     0.00        1     0.00     0.00  std::remove_reference<cv::Ptr<cv::DISOpticalFlow>&>::type&& std::move<cv::Ptr<cv::DISOpticalFlow>&>(cv::Ptr<cv::DISOpticalFlow>&)
+  0.00      0.02     0.00        1     0.00     0.00  std::remove_reference<std::shared_ptr<cv::DISOpticalFlow>&>::type&& std::move<std::shared_ptr<cv::DISOpticalFlow>&>(std::shared_ptr<cv::DISOpticalFlow>&)
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 49.98% of 0.02 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    0.02                 main [1]
+                0.01    0.00    1588/1588        cv::Mat::operator=(cv::Mat const&) [4]
+                0.00    0.01       1/1           cv::Ptr<cv::DISOpticalFlow>::~Ptr() [7]
+                0.00    0.01       1/1           cv::Ptr<cv::DenseOpticalFlow>::~Ptr() [8]
+                0.00    0.00    7147/13500       cv::_InputArray::~_InputArray() [24]
+                0.00    0.00    6353/6353        cv::_InputArray::_InputArray(cv::Mat const&) [27]
+                0.00    0.00    4765/4765        cv::_OutputArray::_OutputArray(cv::Mat&) [29]
+                0.00    0.00    4765/6353        cv::_OutputArray::~_OutputArray() [28]
+                0.00    0.00    1591/1591        cv::Mat::empty() const [32]
+                0.00    0.00    1588/1588        cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [36]
+                0.00    0.00    1588/1588        cv::_InputOutputArray::~_InputOutputArray() [37]
+                0.00    0.00     795/795         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<cv::Mat> >, std::is_move_constructible<cv::Mat>, std::is_move_assignable<cv::Mat> >::value, void>::type std::swap<cv::Mat>(cv::Mat&, cv::Mat&) [42]
+                0.00    0.00     794/794         cv::Ptr<cv::DenseOpticalFlow>::operator->() const [49]
+                0.00    0.00     794/794         cv::_InputArray::_InputArray(double const&) [44]
+                0.00    0.00     794/794         cv::Mat::type() const [48]
+                0.00    0.00     794/794         cv::MatSize::operator()() const [50]
+                0.00    0.00     794/794         cv::Mat::operator=(cv::MatExpr const&) [45]
+                0.00    0.00     794/794         cv::MatExpr::~MatExpr() [47]
+                0.00    0.00      13/13          cv::Mat::Mat() [52]
+                0.00    0.00      13/3190        cv::Mat::~Mat() [30]
+                0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [56]
+                0.00    0.00       1/1           cv::samples::findFileOrKeep(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) [55]
+                0.00    0.00       1/1           cv::Ptr<cv::DenseOpticalFlow>::Ptr<cv::DISOpticalFlow>(cv::Ptr<cv::DISOpticalFlow>&&) [54]
+-----------------------------------------------
+                0.01    0.00   28431/28431       __gnu_cxx::__exchange_and_add_dispatch(int*, int) [3]
+[2]     50.0    0.01    0.00   28431         __gnu_cxx::__exchange_and_add(int volatile*, int) [2]
+-----------------------------------------------
+                0.00    0.01   24413/24413       std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [6]
+[3]     50.0    0.00    0.01   24413         __gnu_cxx::__exchange_and_add_dispatch(int*, int) [3]
+                0.01    0.00   28431/28431       __gnu_cxx::__exchange_and_add(int volatile*, int) [2]
+                0.00    0.00   28249/28249       __gthread_active_p() [22]
+-----------------------------------------------
+                0.01    0.00    1588/1588        main [1]
+[4]     50.0    0.01    0.00    1588         cv::Mat::operator=(cv::Mat const&) [4]
+                0.00    0.00  214347/214347      cv::MatStep::operator[](int) const [21]
+                0.00    0.00  202374/1177422     cv::MatStep::operator[](int) [19]
+                0.00    0.00   91767/1167803     cv::Mat::release() [20]
+-----------------------------------------------
+                0.00    0.01       1/2           std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [11]
+                0.00    0.01       1/2           std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [12]
+[5]     50.0    0.00    0.01       2         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [5]
+                0.00    0.01       1/1           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [6]
+-----------------------------------------------
+                0.00    0.01       1/1           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [5]
+[6]     50.0    0.00    0.01       1         std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [6]
+                0.00    0.01   24413/24413       __gnu_cxx::__exchange_and_add_dispatch(int*, int) [3]
+-----------------------------------------------
+                0.00    0.01       1/1           main [1]
+[7]     25.0    0.00    0.01       1         cv::Ptr<cv::DISOpticalFlow>::~Ptr() [7]
+                0.00    0.01       1/1           std::shared_ptr<cv::DISOpticalFlow>::~shared_ptr() [9]
+-----------------------------------------------
+                0.00    0.01       1/1           main [1]
+[8]     25.0    0.00    0.01       1         cv::Ptr<cv::DenseOpticalFlow>::~Ptr() [8]
+                0.00    0.01       1/1           std::shared_ptr<cv::DenseOpticalFlow>::~shared_ptr() [10]
+-----------------------------------------------
+                0.00    0.01       1/1           cv::Ptr<cv::DISOpticalFlow>::~Ptr() [7]
+[9]     25.0    0.00    0.01       1         std::shared_ptr<cv::DISOpticalFlow>::~shared_ptr() [9]
+                0.00    0.01       1/1           std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [11]
+-----------------------------------------------
+                0.00    0.01       1/1           cv::Ptr<cv::DenseOpticalFlow>::~Ptr() [8]
+[10]    25.0    0.00    0.01       1         std::shared_ptr<cv::DenseOpticalFlow>::~shared_ptr() [10]
+                0.00    0.01       1/1           std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [12]
+-----------------------------------------------
+                0.00    0.01       1/1           std::shared_ptr<cv::DISOpticalFlow>::~shared_ptr() [9]
+[11]    25.0    0.00    0.01       1         std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [11]
+                0.00    0.01       1/2           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [5]
+-----------------------------------------------
+                0.00    0.01       1/1           std::shared_ptr<cv::DenseOpticalFlow>::~shared_ptr() [10]
+[12]    25.0    0.00    0.01       1         std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [12]
+                0.00    0.01       1/2           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [5]
+-----------------------------------------------
+                0.00    0.00    3180/1177422     cv::Mat::Mat(cv::Mat&&) [40]
+                0.00    0.00  202374/1177422     cv::Mat::operator=(cv::Mat const&) [4]
+                0.00    0.00  971868/1177422     cv::Mat::operator=(cv::Mat&&) [33]
+[19]     0.0    0.00    0.00 1177422         cv::MatStep::operator[](int) [19]
+-----------------------------------------------
+                0.00    0.00   91767/1167803     cv::Mat::operator=(cv::Mat const&) [4]
+                0.00    0.00  242967/1167803     cv::Mat::operator=(cv::Mat&&) [33]
+                0.00    0.00  833069/1167803     cv::Mat::~Mat() [30]
+[20]     0.0    0.00    0.00 1167803         cv::Mat::release() [20]
+-----------------------------------------------
+                0.00    0.00  214347/214347      cv::Mat::operator=(cv::Mat const&) [4]
+[21]     0.0    0.00    0.00  214347         cv::MatStep::operator[](int) const [21]
+-----------------------------------------------
+                0.00    0.00   28249/28249       __gnu_cxx::__exchange_and_add_dispatch(int*, int) [3]
+[22]     0.0    0.00    0.00   28249         __gthread_active_p() [22]
+-----------------------------------------------
+                0.00    0.00    1588/20647       cv::_OutputArray::_OutputArray() [35]
+                0.00    0.00    1588/20647       cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [36]
+                0.00    0.00    4765/20647       cv::_OutputArray::_OutputArray(cv::Mat&) [29]
+                0.00    0.00    6353/20647       cv::_InputArray::_InputArray() [26]
+                0.00    0.00    6353/20647       cv::_InputArray::_InputArray(cv::Mat const&) [27]
+[23]     0.0    0.00    0.00   20647         cv::_InputArray::init(int, void const*) [23]
+-----------------------------------------------
+                0.00    0.00    6353/13500       cv::_OutputArray::~_OutputArray() [28]
+                0.00    0.00    7147/13500       main [1]
+[24]     0.0    0.00    0.00   13500         cv::_InputArray::~_InputArray() [24]
+-----------------------------------------------
+                0.00    0.00     794/13500       cv::_InputArray::_InputArray(double const&) [44]
+                0.00    0.00    6353/13500       cv::_InputArray::_InputArray() [26]
+                0.00    0.00    6353/13500       cv::_InputArray::_InputArray(cv::Mat const&) [27]
+[25]     0.0    0.00    0.00   13500         cv::Size_<int>::Size_() [25]
+-----------------------------------------------
+                0.00    0.00    1588/6353        cv::_OutputArray::_OutputArray() [35]
+                0.00    0.00    4765/6353        cv::_OutputArray::_OutputArray(cv::Mat&) [29]
+[26]     0.0    0.00    0.00    6353         cv::_InputArray::_InputArray() [26]
+                0.00    0.00    6353/13500       cv::Size_<int>::Size_() [25]
+                0.00    0.00    6353/20647       cv::_InputArray::init(int, void const*) [23]
+-----------------------------------------------
+                0.00    0.00    6353/6353        main [1]
+[27]     0.0    0.00    0.00    6353         cv::_InputArray::_InputArray(cv::Mat const&) [27]
+                0.00    0.00    6353/13500       cv::Size_<int>::Size_() [25]
+                0.00    0.00    6353/20647       cv::_InputArray::init(int, void const*) [23]
+-----------------------------------------------
+                0.00    0.00    1588/6353        cv::_InputOutputArray::~_InputOutputArray() [37]
+                0.00    0.00    4765/6353        main [1]
+[28]     0.0    0.00    0.00    6353         cv::_OutputArray::~_OutputArray() [28]
+                0.00    0.00    6353/13500       cv::_InputArray::~_InputArray() [24]
+-----------------------------------------------
+                0.00    0.00    4765/4765        main [1]
+[29]     0.0    0.00    0.00    4765         cv::_OutputArray::_OutputArray(cv::Mat&) [29]
+                0.00    0.00    4765/6353        cv::_InputArray::_InputArray() [26]
+                0.00    0.00    4765/20647       cv::_InputArray::init(int, void const*) [23]
+-----------------------------------------------
+                0.00    0.00      13/3190        main [1]
+                0.00    0.00     795/3190        std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<cv::Mat> >, std::is_move_constructible<cv::Mat>, std::is_move_assignable<cv::Mat> >::value, void>::type std::swap<cv::Mat>(cv::Mat&, cv::Mat&) [42]
+                0.00    0.00    2382/3190        cv::MatExpr::~MatExpr() [47]
+[30]     0.0    0.00    0.00    3190         cv::Mat::~Mat() [30]
+                0.00    0.00  833069/1167803     cv::Mat::release() [20]
+-----------------------------------------------
+                0.00    0.00    2385/2385        std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<cv::Mat> >, std::is_move_constructible<cv::Mat>, std::is_move_assignable<cv::Mat> >::value, void>::type std::swap<cv::Mat>(cv::Mat&, cv::Mat&) [42]
+[31]     0.0    0.00    0.00    2385         std::remove_reference<cv::Mat&>::type&& std::move<cv::Mat&>(cv::Mat&) [31]
+-----------------------------------------------
+                0.00    0.00    1591/1591        main [1]
+[32]     0.0    0.00    0.00    1591         cv::Mat::empty() const [32]
+                0.00    0.00    1589/1589        cv::Mat::total() const [34]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<cv::Mat> >, std::is_move_constructible<cv::Mat>, std::is_move_assignable<cv::Mat> >::value, void>::type std::swap<cv::Mat>(cv::Mat&, cv::Mat&) [42]
+[33]     0.0    0.00    0.00    1590         cv::Mat::operator=(cv::Mat&&) [33]
+                0.00    0.00  971868/1177422     cv::MatStep::operator[](int) [19]
+                0.00    0.00  242967/1167803     cv::Mat::release() [20]
+-----------------------------------------------
+                0.00    0.00    1589/1589        cv::Mat::empty() const [32]
+[34]     0.0    0.00    0.00    1589         cv::Mat::total() const [34]
+-----------------------------------------------
+                0.00    0.00    1588/1588        cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [36]
+[35]     0.0    0.00    0.00    1588         cv::_OutputArray::_OutputArray() [35]
+                0.00    0.00    1588/6353        cv::_InputArray::_InputArray() [26]
+                0.00    0.00    1588/20647       cv::_InputArray::init(int, void const*) [23]
+-----------------------------------------------
+                0.00    0.00    1588/1588        main [1]
+[36]     0.0    0.00    0.00    1588         cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [36]
+                0.00    0.00    1588/1588        cv::_OutputArray::_OutputArray() [35]
+                0.00    0.00    1588/20647       cv::_InputArray::init(int, void const*) [23]
+-----------------------------------------------
+                0.00    0.00    1588/1588        main [1]
+[37]     0.0    0.00    0.00    1588         cv::_InputOutputArray::~_InputOutputArray() [37]
+                0.00    0.00    1588/6353        cv::_OutputArray::~_OutputArray() [28]
+-----------------------------------------------
+                0.00    0.00     794/1588        cv::_InputArray::_InputArray(double const&) [44]
+                0.00    0.00     794/1588        cv::MatSize::operator()() const [50]
+[38]     0.0    0.00    0.00    1588         cv::Size_<int>::Size_(int, int) [38]
+-----------------------------------------------
+                0.00    0.00      13/808         cv::Mat::Mat() [52]
+                0.00    0.00     795/808         cv::Mat::Mat(cv::Mat&&) [40]
+[39]     0.0    0.00    0.00     808         cv::MatSize::MatSize(int*) [39]
+-----------------------------------------------
+                0.00    0.00     795/795         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<cv::Mat> >, std::is_move_constructible<cv::Mat>, std::is_move_assignable<cv::Mat> >::value, void>::type std::swap<cv::Mat>(cv::Mat&, cv::Mat&) [42]
+[40]     0.0    0.00    0.00     795         cv::Mat::Mat(cv::Mat&&) [40]
+                0.00    0.00    3180/1177422     cv::MatStep::operator[](int) [19]
+                0.00    0.00     795/808         cv::MatSize::MatSize(int*) [39]
+                0.00    0.00     795/795         cv::MatStep::MatStep() [41]
+-----------------------------------------------
+                0.00    0.00     795/795         cv::Mat::Mat(cv::Mat&&) [40]
+[41]     0.0    0.00    0.00     795         cv::MatStep::MatStep() [41]
+-----------------------------------------------
+                0.00    0.00     795/795         main [1]
+[42]     0.0    0.00    0.00     795         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<cv::Mat> >, std::is_move_constructible<cv::Mat>, std::is_move_assignable<cv::Mat> >::value, void>::type std::swap<cv::Mat>(cv::Mat&, cv::Mat&) [42]
+                0.00    0.00    2385/2385        std::remove_reference<cv::Mat&>::type&& std::move<cv::Mat&>(cv::Mat&) [31]
+                0.00    0.00    1590/1590        cv::Mat::operator=(cv::Mat&&) [33]
+                0.00    0.00     795/795         cv::Mat::Mat(cv::Mat&&) [40]
+                0.00    0.00     795/3190        cv::Mat::~Mat() [30]
+-----------------------------------------------
+                0.00    0.00     794/794         cv::_InputArray::_InputArray(double const&) [44]
+[43]     0.0    0.00    0.00     794         cv::_InputArray::init(int, void const*, cv::Size_<int>) [43]
+                0.00    0.00     794/794         cv::Size_<int>::operator=(cv::Size_<int> const&) [46]
+-----------------------------------------------
+                0.00    0.00     794/794         main [1]
+[44]     0.0    0.00    0.00     794         cv::_InputArray::_InputArray(double const&) [44]
+                0.00    0.00     794/13500       cv::Size_<int>::Size_() [25]
+                0.00    0.00     794/1588        cv::Size_<int>::Size_(int, int) [38]
+                0.00    0.00     794/794         cv::_InputArray::init(int, void const*, cv::Size_<int>) [43]
+-----------------------------------------------
+                0.00    0.00     794/794         main [1]
+[45]     0.0    0.00    0.00     794         cv::Mat::operator=(cv::MatExpr const&) [45]
+-----------------------------------------------
+                0.00    0.00     794/794         cv::_InputArray::init(int, void const*, cv::Size_<int>) [43]
+[46]     0.0    0.00    0.00     794         cv::Size_<int>::operator=(cv::Size_<int> const&) [46]
+-----------------------------------------------
+                0.00    0.00     794/794         main [1]
+[47]     0.0    0.00    0.00     794         cv::MatExpr::~MatExpr() [47]
+                0.00    0.00    2382/3190        cv::Mat::~Mat() [30]
+-----------------------------------------------
+                0.00    0.00     794/794         main [1]
+[48]     0.0    0.00    0.00     794         cv::Mat::type() const [48]
+-----------------------------------------------
+                0.00    0.00     794/794         main [1]
+[49]     0.0    0.00    0.00     794         cv::Ptr<cv::DenseOpticalFlow>::operator->() const [49]
+                0.00    0.00     794/794         std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::get() const [51]
+-----------------------------------------------
+                0.00    0.00     794/794         main [1]
+[50]     0.0    0.00    0.00     794         cv::MatSize::operator()() const [50]
+                0.00    0.00     794/1588        cv::Size_<int>::Size_(int, int) [38]
+-----------------------------------------------
+                0.00    0.00     794/794         cv::Ptr<cv::DenseOpticalFlow>::operator->() const [49]
+[51]     0.0    0.00    0.00     794         std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::get() const [51]
+-----------------------------------------------
+                0.00    0.00      13/13          main [1]
+[52]     0.0    0.00    0.00      13         cv::Mat::Mat() [52]
+                0.00    0.00      13/808         cv::MatSize::MatSize(int*) [39]
+                0.00    0.00      13/13          cv::MatStep::MatStep(unsigned long) [53]
+-----------------------------------------------
+                0.00    0.00      13/13          cv::Mat::Mat() [52]
+[53]     0.0    0.00    0.00      13         cv::MatStep::MatStep(unsigned long) [53]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[54]     0.0    0.00    0.00       1         cv::Ptr<cv::DenseOpticalFlow>::Ptr<cv::DISOpticalFlow>(cv::Ptr<cv::DISOpticalFlow>&&) [54]
+                0.00    0.00       1/1           std::remove_reference<cv::Ptr<cv::DISOpticalFlow>&>::type&& std::move<cv::Ptr<cv::DISOpticalFlow>&>(cv::Ptr<cv::DISOpticalFlow>&) [61]
+                0.00    0.00       1/1           std::shared_ptr<cv::DenseOpticalFlow>::shared_ptr<cv::DISOpticalFlow, void>(std::shared_ptr<cv::DISOpticalFlow>&&) [57]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[55]     0.0    0.00    0.00       1         cv::samples::findFileOrKeep(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[56]     0.0    0.00    0.00       1         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [56]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::Ptr<cv::DenseOpticalFlow>::Ptr<cv::DISOpticalFlow>(cv::Ptr<cv::DISOpticalFlow>&&) [54]
+[57]     0.0    0.00    0.00       1         std::shared_ptr<cv::DenseOpticalFlow>::shared_ptr<cv::DISOpticalFlow, void>(std::shared_ptr<cv::DISOpticalFlow>&&) [57]
+                0.00    0.00       1/1           std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::DISOpticalFlow, void>(std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>&&) [58]
+                0.00    0.00       1/1           std::remove_reference<std::shared_ptr<cv::DISOpticalFlow>&>::type&& std::move<std::shared_ptr<cv::DISOpticalFlow>&>(std::shared_ptr<cv::DISOpticalFlow>&) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<cv::DenseOpticalFlow>::shared_ptr<cv::DISOpticalFlow, void>(std::shared_ptr<cv::DISOpticalFlow>&&) [57]
+[58]     0.0    0.00    0.00       1         std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::DISOpticalFlow, void>(std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>&&) [58]
+                0.00    0.00       1/1           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count() [60]
+                0.00    0.00       1/1           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::_M_swap(std::__shared_count<(__gnu_cxx::_Lock_policy)2>&) [59]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::DISOpticalFlow, void>(std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>&&) [58]
+[59]     0.0    0.00    0.00       1         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::_M_swap(std::__shared_count<(__gnu_cxx::_Lock_policy)2>&) [59]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::DISOpticalFlow, void>(std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>&&) [58]
+[60]     0.0    0.00    0.00       1         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::Ptr<cv::DenseOpticalFlow>::Ptr<cv::DISOpticalFlow>(cv::Ptr<cv::DISOpticalFlow>&&) [54]
+[61]     0.0    0.00    0.00       1         std::remove_reference<cv::Ptr<cv::DISOpticalFlow>&>::type&& std::move<cv::Ptr<cv::DISOpticalFlow>&>(cv::Ptr<cv::DISOpticalFlow>&) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<cv::DenseOpticalFlow>::shared_ptr<cv::DISOpticalFlow, void>(std::shared_ptr<cv::DISOpticalFlow>&&) [57]
+[62]     0.0    0.00    0.00       1         std::remove_reference<std::shared_ptr<cv::DISOpticalFlow>&>::type&& std::move<std::shared_ptr<cv::DISOpticalFlow>&>(std::shared_ptr<cv::DISOpticalFlow>&) [62]
+-----------------------------------------------
+
+Index by function name
+
+  [22] __gthread_active_p()    [7] cv::Ptr<cv::DISOpticalFlow>::~Ptr() [50] cv::MatSize::operator()() const
+  [23] cv::_InputArray::init(int, void const*) [54] cv::Ptr<cv::DenseOpticalFlow>::Ptr<cv::DISOpticalFlow>(cv::Ptr<cv::DISOpticalFlow>&&) [21] cv::MatStep::operator[](int) const
+  [43] cv::_InputArray::init(int, void const*, cv::Size_<int>) [8] cv::Ptr<cv::DenseOpticalFlow>::~Ptr() [51] std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::get() const
+  [26] cv::_InputArray::_InputArray() [38] cv::Size_<int>::Size_(int, int) [9] std::shared_ptr<cv::DISOpticalFlow>::~shared_ptr()
+  [27] cv::_InputArray::_InputArray(cv::Mat const&) [25] cv::Size_<int>::Size_() [57] std::shared_ptr<cv::DenseOpticalFlow>::shared_ptr<cv::DISOpticalFlow, void>(std::shared_ptr<cv::DISOpticalFlow>&&)
+  [44] cv::_InputArray::_InputArray(double const&) [46] cv::Size_<int>::operator=(cv::Size_<int> const&) [10] std::shared_ptr<cv::DenseOpticalFlow>::~shared_ptr()
+  [24] cv::_InputArray::~_InputArray() [47] cv::MatExpr::~MatExpr() [11] std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  [29] cv::_OutputArray::_OutputArray(cv::Mat&) [39] cv::MatSize::MatSize(int*) [58] std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::DISOpticalFlow, void>(std::__shared_ptr<cv::DISOpticalFlow, (__gnu_cxx::_Lock_policy)2>&&)
+  [35] cv::_OutputArray::_OutputArray() [53] cv::MatStep::MatStep(unsigned long) [12] std::__shared_ptr<cv::DenseOpticalFlow, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  [28] cv::_OutputArray::~_OutputArray() [41] cv::MatStep::MatStep() [59] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::_M_swap(std::__shared_count<(__gnu_cxx::_Lock_policy)2>&)
+  [36] cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [19] cv::MatStep::operator[](int) [60] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count()
+  [37] cv::_InputOutputArray::~_InputOutputArray() [55] cv::samples::findFileOrKeep(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) [5] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+  [20] cv::Mat::release()      [2] __gnu_cxx::__exchange_and_add(int volatile*, int) [6] std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  [52] cv::Mat::Mat()          [3] __gnu_cxx::__exchange_and_add_dispatch(int*, int) [31] std::remove_reference<cv::Mat&>::type&& std::move<cv::Mat&>(cv::Mat&)
+  [40] cv::Mat::Mat(cv::Mat&&) [56] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [61] std::remove_reference<cv::Ptr<cv::DISOpticalFlow>&>::type&& std::move<cv::Ptr<cv::DISOpticalFlow>&>(cv::Ptr<cv::DISOpticalFlow>&)
+  [30] cv::Mat::~Mat()        [48] cv::Mat::type() const  [62] std::remove_reference<std::shared_ptr<cv::DISOpticalFlow>&>::type&& std::move<std::shared_ptr<cv::DISOpticalFlow>&>(std::shared_ptr<cv::DISOpticalFlow>&)
+  [33] cv::Mat::operator=(cv::Mat&&) [32] cv::Mat::empty() const [42] std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<cv::Mat> >, std::is_move_constructible<cv::Mat>, std::is_move_assignable<cv::Mat> >::value, void>::type std::swap<cv::Mat>(cv::Mat&, cv::Mat&)
+  [45] cv::Mat::operator=(cv::MatExpr const&) [34] cv::Mat::total() const
+   [4] cv::Mat::operator=(cv::Mat const&) [49] cv::Ptr<cv::DenseOpticalFlow>::operator->() const

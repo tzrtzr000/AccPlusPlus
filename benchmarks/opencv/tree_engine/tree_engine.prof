@@ -1,0 +1,313 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00   442673     0.00     0.00  cv::Mat::release()
+  0.00      0.00     0.00       11     0.00     0.00  cv::Ptr<cv::ml::RTrees>::operator->() const
+  0.00      0.00     0.00       11     0.00     0.00  std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::get() const
+  0.00      0.00     0.00       10     0.00     0.00  __gthread_active_p()
+  0.00      0.00     0.00        9     0.00     0.00  cv::Ptr<cv::ml::DTrees>::operator->() const
+  0.00      0.00     0.00        9     0.00     0.00  std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::get() const
+  0.00      0.00     0.00        8     0.00     0.00  cv::Mat::~Mat()
+  0.00      0.00     0.00        8     0.00     0.00  __gnu_cxx::__exchange_and_add(int volatile*, int)
+  0.00      0.00     0.00        8     0.00     0.00  __gnu_cxx::__exchange_and_add_dispatch(int*, int)
+  0.00      0.00     0.00        8     0.00     0.00  std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::get() const
+  0.00      0.00     0.00        7     0.00     0.00  cv::Ptr<cv::ml::TrainData>::operator->() const
+  0.00      0.00     0.00        6     0.00     0.00  cv::Ptr<cv::ml::StatModel>::operator->() const
+  0.00      0.00     0.00        6     0.00     0.00  std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::get() const
+  0.00      0.00     0.00        5     0.00     0.00  float& cv::Mat::at<float>(int, int)
+  0.00      0.00     0.00        5     0.00     0.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+  0.00      0.00     0.00        5     0.00     0.00  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  0.00      0.00     0.00        3     0.00     0.00  cv::_InputArray::init(int, void const*)
+  0.00      0.00     0.00        3     0.00     0.00  cv::Mat::Mat()
+  0.00      0.00     0.00        3     0.00     0.00  cv::MatSize::MatSize(int*)
+  0.00      0.00     0.00        3     0.00     0.00  cv::MatStep::MatStep(unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  train_and_print_errs(cv::Ptr<cv::ml::StatModel>, cv::Ptr<cv::ml::TrainData> const&)
+  0.00      0.00     0.00        2     0.00     0.00  cv::_InputArray::~_InputArray()
+  0.00      0.00     0.00        2     0.00     0.00  cv::Ptr<cv::ml::StatModel>::~Ptr()
+  0.00      0.00     0.00        2     0.00     0.00  cv::Size_<int>::Size_()
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::__atomic_add(int volatile*, int)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::__atomic_add_dispatch(int*, int)
+  0.00      0.00     0.00        2     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+  0.00      0.00     0.00        2     0.00     0.00  std::shared_ptr<cv::ml::StatModel>::~shared_ptr()
+  0.00      0.00     0.00        2     0.00     0.00  std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  0.00      0.00     0.00        2     0.00     0.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy()
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  cv::_InputArray::_InputArray()
+  0.00      0.00     0.00        1     0.00     0.00  cv::_InputArray::_InputArray(cv::Mat const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::TermCriteria::TermCriteria(int, int, double)
+  0.00      0.00     0.00        1     0.00     0.00  cv::_OutputArray::_OutputArray(cv::Mat&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::_OutputArray::~_OutputArray()
+  0.00      0.00     0.00        1     0.00     0.00  cv::Ptr<cv::ml::DTrees>::~Ptr()
+  0.00      0.00     0.00        1     0.00     0.00  cv::Ptr<cv::ml::RTrees>::~Ptr()
+  0.00      0.00     0.00        1     0.00     0.00  cv::Ptr<cv::ml::StatModel>::Ptr<cv::ml::DTrees>(cv::Ptr<cv::ml::DTrees> const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Ptr<cv::ml::StatModel>::Ptr<cv::ml::RTrees>(cv::Ptr<cv::ml::RTrees> const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Ptr<cv::ml::TrainData>::~Ptr()
+  0.00      0.00     0.00        1     0.00     0.00  int cv::CommandLineParser::get<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat::total() const
+  0.00      0.00     0.00        1     0.00     0.00  cv::Ptr<cv::ml::TrainData>::empty() const
+  0.00      0.00     0.00        1     0.00     0.00  std::shared_ptr<cv::ml::DTrees>::~shared_ptr()
+  0.00      0.00     0.00        1     0.00     0.00  std::shared_ptr<cv::ml::RTrees>::~shared_ptr()
+  0.00      0.00     0.00        1     0.00     0.00  std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::DTrees, void>(std::shared_ptr<cv::ml::DTrees> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::RTrees, void>(std::shared_ptr<cv::ml::RTrees> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::shared_ptr<cv::ml::TrainData>::~shared_ptr()
+  0.00      0.00     0.00        1     0.00     0.00  std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  0.00      0.00     0.00        1     0.00     0.00  std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  0.00      0.00     0.00        1     0.00     0.00  std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::DTrees, void>(std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::RTrees, void>(std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00  442673/442673      cv::Mat::~Mat() [14]
+[8]      0.0    0.00    0.00  442673         cv::Mat::release() [8]
+-----------------------------------------------
+                0.00    0.00      11/11          main [6]
+[9]      0.0    0.00    0.00      11         cv::Ptr<cv::ml::RTrees>::operator->() const [9]
+                0.00    0.00      11/11          std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::get() const [10]
+-----------------------------------------------
+                0.00    0.00      11/11          cv::Ptr<cv::ml::RTrees>::operator->() const [9]
+[10]     0.0    0.00    0.00      11         std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::get() const [10]
+-----------------------------------------------
+                0.00    0.00       2/10          __gnu_cxx::__atomic_add_dispatch(int*, int) [33]
+                0.00    0.00       8/10          __gnu_cxx::__exchange_and_add_dispatch(int*, int) [16]
+[11]     0.0    0.00    0.00      10         __gthread_active_p() [11]
+-----------------------------------------------
+                0.00    0.00       9/9           main [6]
+[12]     0.0    0.00    0.00       9         cv::Ptr<cv::ml::DTrees>::operator->() const [12]
+                0.00    0.00       9/9           std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::get() const [13]
+-----------------------------------------------
+                0.00    0.00       9/9           cv::Ptr<cv::ml::DTrees>::operator->() const [12]
+[13]     0.0    0.00    0.00       9         std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::get() const [13]
+-----------------------------------------------
+                0.00    0.00       8/8           main [6]
+[14]     0.0    0.00    0.00       8         cv::Mat::~Mat() [14]
+                0.00    0.00  442673/442673      cv::Mat::release() [8]
+-----------------------------------------------
+                0.00    0.00       8/8           __gnu_cxx::__exchange_and_add_dispatch(int*, int) [16]
+[15]     0.0    0.00    0.00       8         __gnu_cxx::__exchange_and_add(int volatile*, int) [15]
+-----------------------------------------------
+                0.00    0.00       8/8           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [23]
+[16]     0.0    0.00    0.00       8         __gnu_cxx::__exchange_and_add_dispatch(int*, int) [16]
+                0.00    0.00       8/10          __gthread_active_p() [11]
+                0.00    0.00       8/8           __gnu_cxx::__exchange_and_add(int volatile*, int) [15]
+-----------------------------------------------
+                0.00    0.00       1/8           cv::Ptr<cv::ml::TrainData>::empty() const [53]
+                0.00    0.00       7/8           cv::Ptr<cv::ml::TrainData>::operator->() const [18]
+[17]     0.0    0.00    0.00       8         std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::get() const [17]
+-----------------------------------------------
+                0.00    0.00       7/7           main [6]
+[18]     0.0    0.00    0.00       7         cv::Ptr<cv::ml::TrainData>::operator->() const [18]
+                0.00    0.00       7/8           std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::get() const [17]
+-----------------------------------------------
+                0.00    0.00       6/6           train_and_print_errs(cv::Ptr<cv::ml::StatModel>, cv::Ptr<cv::ml::TrainData> const&) [28]
+[19]     0.0    0.00    0.00       6         cv::Ptr<cv::ml::StatModel>::operator->() const [19]
+                0.00    0.00       6/6           std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::get() const [20]
+-----------------------------------------------
+                0.00    0.00       6/6           cv::Ptr<cv::ml::StatModel>::operator->() const [19]
+[20]     0.0    0.00    0.00       6         std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::get() const [20]
+-----------------------------------------------
+                0.00    0.00       5/5           main [6]
+[21]     0.0    0.00    0.00       5         float& cv::Mat::at<float>(int, int) [21]
+-----------------------------------------------
+                0.00    0.00       1/5           std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [63]
+                0.00    0.00       1/5           std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [59]
+                0.00    0.00       1/5           std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [60]
+                0.00    0.00       2/5           std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [36]
+[22]     0.0    0.00    0.00       5         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [22]
+                0.00    0.00       5/5           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [23]
+-----------------------------------------------
+                0.00    0.00       5/5           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [22]
+[23]     0.0    0.00    0.00       5         std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [23]
+                0.00    0.00       8/8           __gnu_cxx::__exchange_and_add_dispatch(int*, int) [16]
+-----------------------------------------------
+                0.00    0.00       1/3           cv::_InputArray::_InputArray() [41]
+                0.00    0.00       1/3           cv::_InputArray::_InputArray(cv::Mat const&) [42]
+                0.00    0.00       1/3           cv::_OutputArray::_OutputArray(cv::Mat&) [44]
+[24]     0.0    0.00    0.00       3         cv::_InputArray::init(int, void const*) [24]
+-----------------------------------------------
+                0.00    0.00       3/3           main [6]
+[25]     0.0    0.00    0.00       3         cv::Mat::Mat() [25]
+                0.00    0.00       3/3           cv::MatSize::MatSize(int*) [26]
+                0.00    0.00       3/3           cv::MatStep::MatStep(unsigned long) [27]
+-----------------------------------------------
+                0.00    0.00       3/3           cv::Mat::Mat() [25]
+[26]     0.0    0.00    0.00       3         cv::MatSize::MatSize(int*) [26]
+-----------------------------------------------
+                0.00    0.00       3/3           cv::Mat::Mat() [25]
+[27]     0.0    0.00    0.00       3         cv::MatStep::MatStep(unsigned long) [27]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[28]     0.0    0.00    0.00       2         train_and_print_errs(cv::Ptr<cv::ml::StatModel>, cv::Ptr<cv::ml::TrainData> const&) [28]
+                0.00    0.00       6/6           cv::Ptr<cv::ml::StatModel>::operator->() const [19]
+-----------------------------------------------
+                0.00    0.00       1/2           main [6]
+                0.00    0.00       1/2           cv::_OutputArray::~_OutputArray() [45]
+[29]     0.0    0.00    0.00       2         cv::_InputArray::~_InputArray() [29]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[30]     0.0    0.00    0.00       2         cv::Ptr<cv::ml::StatModel>::~Ptr() [30]
+                0.00    0.00       2/2           std::shared_ptr<cv::ml::StatModel>::~shared_ptr() [35]
+-----------------------------------------------
+                0.00    0.00       1/2           cv::_InputArray::_InputArray() [41]
+                0.00    0.00       1/2           cv::_InputArray::_InputArray(cv::Mat const&) [42]
+[31]     0.0    0.00    0.00       2         cv::Size_<int>::Size_() [31]
+-----------------------------------------------
+                0.00    0.00       2/2           __gnu_cxx::__atomic_add_dispatch(int*, int) [33]
+[32]     0.0    0.00    0.00       2         __gnu_cxx::__atomic_add(int volatile*, int) [32]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy() [38]
+[33]     0.0    0.00    0.00       2         __gnu_cxx::__atomic_add_dispatch(int*, int) [33]
+                0.00    0.00       2/10          __gthread_active_p() [11]
+                0.00    0.00       2/2           __gnu_cxx::__atomic_add(int volatile*, int) [32]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[34]     0.0    0.00    0.00       2         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [34]
+-----------------------------------------------
+                0.00    0.00       2/2           cv::Ptr<cv::ml::StatModel>::~Ptr() [30]
+[35]     0.0    0.00    0.00       2         std::shared_ptr<cv::ml::StatModel>::~shared_ptr() [35]
+                0.00    0.00       2/2           std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [36]
+-----------------------------------------------
+                0.00    0.00       2/2           std::shared_ptr<cv::ml::StatModel>::~shared_ptr() [35]
+[36]     0.0    0.00    0.00       2         std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [36]
+                0.00    0.00       2/5           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [22]
+-----------------------------------------------
+                0.00    0.00       1/2           std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::DTrees, void>(std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2> const&) [61]
+                0.00    0.00       1/2           std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::RTrees, void>(std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2> const&) [62]
+[37]     0.0    0.00    0.00       2         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [37]
+                0.00    0.00       2/2           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy() [38]
+-----------------------------------------------
+                0.00    0.00       2/2           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [37]
+[38]     0.0    0.00    0.00       2         std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy() [38]
+                0.00    0.00       2/2           __gnu_cxx::__atomic_add_dispatch(int*, int) [33]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [81]
+[39]     0.0    0.00    0.00       1         _GLOBAL__sub_I_main [39]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [40]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [39]
+[40]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [40]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::_OutputArray::_OutputArray(cv::Mat&) [44]
+[41]     0.0    0.00    0.00       1         cv::_InputArray::_InputArray() [41]
+                0.00    0.00       1/2           cv::Size_<int>::Size_() [31]
+                0.00    0.00       1/3           cv::_InputArray::init(int, void const*) [24]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[42]     0.0    0.00    0.00       1         cv::_InputArray::_InputArray(cv::Mat const&) [42]
+                0.00    0.00       1/2           cv::Size_<int>::Size_() [31]
+                0.00    0.00       1/3           cv::_InputArray::init(int, void const*) [24]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[43]     0.0    0.00    0.00       1         cv::TermCriteria::TermCriteria(int, int, double) [43]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[44]     0.0    0.00    0.00       1         cv::_OutputArray::_OutputArray(cv::Mat&) [44]
+                0.00    0.00       1/1           cv::_InputArray::_InputArray() [41]
+                0.00    0.00       1/3           cv::_InputArray::init(int, void const*) [24]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[45]     0.0    0.00    0.00       1         cv::_OutputArray::~_OutputArray() [45]
+                0.00    0.00       1/2           cv::_InputArray::~_InputArray() [29]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[46]     0.0    0.00    0.00       1         cv::Ptr<cv::ml::DTrees>::~Ptr() [46]
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::DTrees>::~shared_ptr() [54]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[47]     0.0    0.00    0.00       1         cv::Ptr<cv::ml::RTrees>::~Ptr() [47]
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::RTrees>::~shared_ptr() [55]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[48]     0.0    0.00    0.00       1         cv::Ptr<cv::ml::StatModel>::Ptr<cv::ml::DTrees>(cv::Ptr<cv::ml::DTrees> const&) [48]
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::DTrees, void>(std::shared_ptr<cv::ml::DTrees> const&) [56]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[49]     0.0    0.00    0.00       1         cv::Ptr<cv::ml::StatModel>::Ptr<cv::ml::RTrees>(cv::Ptr<cv::ml::RTrees> const&) [49]
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::RTrees, void>(std::shared_ptr<cv::ml::RTrees> const&) [57]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[50]     0.0    0.00    0.00       1         cv::Ptr<cv::ml::TrainData>::~Ptr() [50]
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::TrainData>::~shared_ptr() [58]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[51]     0.0    0.00    0.00       1         int cv::CommandLineParser::get<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [51]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[52]     0.0    0.00    0.00       1         cv::Mat::total() const [52]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[53]     0.0    0.00    0.00       1         cv::Ptr<cv::ml::TrainData>::empty() const [53]
+                0.00    0.00       1/8           std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::get() const [17]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::Ptr<cv::ml::DTrees>::~Ptr() [46]
+[54]     0.0    0.00    0.00       1         std::shared_ptr<cv::ml::DTrees>::~shared_ptr() [54]
+                0.00    0.00       1/1           std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [59]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::Ptr<cv::ml::RTrees>::~Ptr() [47]
+[55]     0.0    0.00    0.00       1         std::shared_ptr<cv::ml::RTrees>::~shared_ptr() [55]
+                0.00    0.00       1/1           std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::Ptr<cv::ml::StatModel>::Ptr<cv::ml::DTrees>(cv::Ptr<cv::ml::DTrees> const&) [48]
+[56]     0.0    0.00    0.00       1         std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::DTrees, void>(std::shared_ptr<cv::ml::DTrees> const&) [56]
+                0.00    0.00       1/1           std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::DTrees, void>(std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2> const&) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::Ptr<cv::ml::StatModel>::Ptr<cv::ml::RTrees>(cv::Ptr<cv::ml::RTrees> const&) [49]
+[57]     0.0    0.00    0.00       1         std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::RTrees, void>(std::shared_ptr<cv::ml::RTrees> const&) [57]
+                0.00    0.00       1/1           std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::RTrees, void>(std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2> const&) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::Ptr<cv::ml::TrainData>::~Ptr() [50]
+[58]     0.0    0.00    0.00       1         std::shared_ptr<cv::ml::TrainData>::~shared_ptr() [58]
+                0.00    0.00       1/1           std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [63]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::DTrees>::~shared_ptr() [54]
+[59]     0.0    0.00    0.00       1         std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [59]
+                0.00    0.00       1/5           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [22]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::RTrees>::~shared_ptr() [55]
+[60]     0.0    0.00    0.00       1         std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [60]
+                0.00    0.00       1/5           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [22]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::DTrees, void>(std::shared_ptr<cv::ml::DTrees> const&) [56]
+[61]     0.0    0.00    0.00       1         std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::DTrees, void>(std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2> const&) [61]
+                0.00    0.00       1/2           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [37]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::RTrees, void>(std::shared_ptr<cv::ml::RTrees> const&) [57]
+[62]     0.0    0.00    0.00       1         std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::RTrees, void>(std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2> const&) [62]
+                0.00    0.00       1/2           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) [37]
+-----------------------------------------------
+                0.00    0.00       1/1           std::shared_ptr<cv::ml::TrainData>::~shared_ptr() [58]
+[63]     0.0    0.00    0.00       1         std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [63]
+                0.00    0.00       1/5           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [22]
+-----------------------------------------------
+
+Index by function name
+
+  [39] _GLOBAL__sub_I_main (tree_engine.cpp) [30] cv::Ptr<cv::ml::StatModel>::~Ptr() [20] std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::get() const
+  [40] __static_initialization_and_destruction_0(int, int) (tree_engine.cpp) [50] cv::Ptr<cv::ml::TrainData>::~Ptr() [17] std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::get() const
+  [11] __gthread_active_p() (gthr-default.h) [31] cv::Size_<int>::Size_() [54] std::shared_ptr<cv::ml::DTrees>::~shared_ptr()
+  [28] train_and_print_errs(cv::Ptr<cv::ml::StatModel>, cv::Ptr<cv::ml::TrainData> const&) (tree_engine.cpp) [26] cv::MatSize::MatSize(int*) [55] std::shared_ptr<cv::ml::RTrees>::~shared_ptr()
+  [24] cv::_InputArray::init(int, void const*) [27] cv::MatStep::MatStep(unsigned long) [56] std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::DTrees, void>(std::shared_ptr<cv::ml::DTrees> const&)
+  [41] cv::_InputArray::_InputArray() [32] __gnu_cxx::__atomic_add(int volatile*, int) (atomicity.h) [57] std::shared_ptr<cv::ml::StatModel>::shared_ptr<cv::ml::RTrees, void>(std::shared_ptr<cv::ml::RTrees> const&)
+  [42] cv::_InputArray::_InputArray(cv::Mat const&) [15] __gnu_cxx::__exchange_and_add(int volatile*, int) (atomicity.h) [35] std::shared_ptr<cv::ml::StatModel>::~shared_ptr()
+  [29] cv::_InputArray::~_InputArray() [33] __gnu_cxx::__atomic_add_dispatch(int*, int) (atomicity.h) [58] std::shared_ptr<cv::ml::TrainData>::~shared_ptr()
+  [43] cv::TermCriteria::TermCriteria(int, int, double) [16] __gnu_cxx::__exchange_and_add_dispatch(int*, int) (atomicity.h) [59] std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  [44] cv::_OutputArray::_OutputArray(cv::Mat&) [34] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [60] std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  [45] cv::_OutputArray::~_OutputArray() [51] int cv::CommandLineParser::get<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [61] std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::DTrees, void>(std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2> const&)
+  [21] float& cv::Mat::at<float>(int, int) [52] cv::Mat::total() const [62] std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<cv::ml::RTrees, void>(std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2> const&)
+   [8] cv::Mat::release()     [12] cv::Ptr<cv::ml::DTrees>::operator->() const [36] std::__shared_ptr<cv::ml::StatModel, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  [25] cv::Mat::Mat()          [9] cv::Ptr<cv::ml::RTrees>::operator->() const [63] std::__shared_ptr<cv::ml::TrainData, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  [14] cv::Mat::~Mat()        [19] cv::Ptr<cv::ml::StatModel>::operator->() const [37] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&)
+  [46] cv::Ptr<cv::ml::DTrees>::~Ptr() [53] cv::Ptr<cv::ml::TrainData>::empty() const [22] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+  [47] cv::Ptr<cv::ml::RTrees>::~Ptr() [18] cv::Ptr<cv::ml::TrainData>::operator->() const [23] std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  [48] cv::Ptr<cv::ml::StatModel>::Ptr<cv::ml::DTrees>(cv::Ptr<cv::ml::DTrees> const&) [13] std::__shared_ptr<cv::ml::DTrees, (__gnu_cxx::_Lock_policy)2>::get() const [38] std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_add_ref_copy()
+  [49] cv::Ptr<cv::ml::StatModel>::Ptr<cv::ml::RTrees>(cv::Ptr<cv::ml::RTrees> const&) [10] std::__shared_ptr<cv::ml::RTrees, (__gnu_cxx::_Lock_policy)2>::get() const

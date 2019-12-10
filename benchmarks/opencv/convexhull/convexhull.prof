@@ -1,0 +1,661 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 17.65      0.03     0.03 10121032     2.97     2.97  cv::RNG::uniform(int, int)
+ 17.65      0.06     0.03                             main
+  5.88      0.07     0.01 13055543     0.77     0.77  cv::Point_<int>::Point_(cv::Point_<int> const&)
+  5.88      0.08     0.01 12316091     0.81     0.81  operator new(unsigned long, void*)
+  5.88      0.09     0.01  8602191     1.16     1.16  bool std::operator==<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&)
+  5.88      0.10     0.01  8602191     1.16     2.33  bool std::operator!=<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&)
+  5.88      0.11     0.01  6105353     1.64     1.64  cv::_InputArray::_InputArray()
+  5.88      0.12     0.01  6105353     1.64     1.64  cv::Matx<double, 4, 1>::Matx()
+  5.88      0.13     0.01  6105353     1.64     3.28  cv::Scalar_<double>::Scalar_(double, double, double, double)
+  5.88      0.14     0.01  6005353     1.67     1.67  cv::_InputOutputArray::~_InputOutputArray()
+  5.88      0.15     0.01  5060516     1.98     3.56  void __gnu_cxx::new_allocator<cv::Point_<int> >::construct<cv::Point_<int>, cv::Point_<int> const&>(cv::Point_<int>*, cv::Point_<int> const&)
+  5.88      0.16     0.01  2693232     3.71     3.71  std::move_iterator<cv::Point_<int>*> std::__make_move_if_noexcept_iterator<cv::Point_<int>, std::move_iterator<cv::Point_<int>*> >(cv::Point_<int>*)
+  5.88      0.17     0.01  1346616     7.43    26.66  cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*)
+  0.00      0.17     0.00 18316059     0.00     0.00  cv::_InputArray::init(int, void const*)
+  0.00      0.17     0.00 17204382     0.00     0.00  std::move_iterator<cv::Point_<int>*>::base() const
+  0.00      0.17     0.00 14511150     0.00     0.00  std::remove_reference<int&>::type&& std::move<int&>(int&)
+  0.00      0.17     0.00 10794340     0.00     0.00  cv::Point_<int> const& std::forward<cv::Point_<int> const&>(std::remove_reference<cv::Point_<int> const&>::type&)
+  0.00      0.17     0.00 10221032     0.00     0.00  cv::RNG::next()
+  0.00      0.17     0.00  7255575     0.00     0.00  cv::Point_<int>::Point_(cv::Point_<int>&&)
+  0.00      0.17     0.00  7255575     0.00     0.00  std::move_iterator<cv::Point_<int>*>::operator*() const
+  0.00      0.17     0.00  7255575     0.00     0.00  std::move_iterator<cv::Point_<int>*>::operator++()
+  0.00      0.17     0.00  7255575     0.00     0.81  void std::_Construct<cv::Point_<int>, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>&&)
+  0.00      0.17     0.00  7255575     0.00     0.00  cv::Point_<int>* std::__addressof<cv::Point_<int> >(cv::Point_<int>&)
+  0.00      0.17     0.00  7255575     0.00     0.00  cv::Point_<int>&& std::forward<cv::Point_<int> >(std::remove_reference<cv::Point_<int> >::type&)
+  0.00      0.17     0.00  6205353     0.00     0.00  cv::_InputArray::~_InputArray()
+  0.00      0.17     0.00  6205353     0.00     0.00  cv::Size_<int>::Size_()
+  0.00      0.17     0.00  6105353     0.00     0.00  cv::_OutputArray::~_OutputArray()
+  0.00      0.17     0.00  6105353     0.00     1.64  cv::Vec<double, 4>::Vec()
+  0.00      0.17     0.00  6105353     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::operator[](unsigned long)
+  0.00      0.17     0.00  6005353     0.00     1.64  cv::_OutputArray::_OutputArray()
+  0.00      0.17     0.00  6005353     0.00     1.64  cv::_InputOutputArray::_InputOutputArray(cv::Mat&)
+  0.00      0.17     0.00  5060516     0.00     0.00  cv::Point_<int>::Point_()
+  0.00      0.17     0.00  5060516     0.00     3.56  void std::allocator_traits<std::allocator<cv::Point_<int> > >::construct<cv::Point_<int>, cv::Point_<int> const&>(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, cv::Point_<int> const&)
+  0.00      0.17     0.00  5060516     0.00    12.63  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::push_back(cv::Point_<int> const&)
+  0.00      0.17     0.00  2793232     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::size() const
+  0.00      0.17     0.00  2693232     0.00     0.00  __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const
+  0.00      0.17     0.00  2693232     0.00     0.00  std::move_iterator<cv::Point_<int>*>::move_iterator(cv::Point_<int>*)
+  0.00      0.17     0.00  2119924     0.00     0.00  std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator()
+  0.00      0.17     0.00  2019924     0.00     0.00  __gnu_cxx::new_allocator<cv::Point_<int> >::max_size() const
+  0.00      0.17     0.00  1346616     0.00     0.00  __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int>* const&)
+  0.00      0.17     0.00  1346616     0.00     0.00  std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator() const
+  0.00      0.17     0.00  1346616     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::max_size() const
+  0.00      0.17     0.00  1346616     0.00     0.00  std::allocator_traits<std::allocator<cv::Point_<int> > >::max_size(std::allocator<cv::Point_<int> > const&)
+  0.00      0.17     0.00  1346616     0.00    26.66  cv::Point_<int>* std::uninitialized_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*)
+  0.00      0.17     0.00  1346616     0.00    26.66  cv::Point_<int>* std::__uninitialized_copy_a<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, cv::Point_<int> >(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, std::allocator<cv::Point_<int> >&)
+  0.00      0.17     0.00  1346616     0.00    34.09  cv::Point_<int>* std::__uninitialized_move_if_noexcept_a<cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> > >(cv::Point_<int>*, cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&)
+  0.00      0.17     0.00  1044837     0.00     0.00  std::vector<int, std::allocator<int> >::operator[](unsigned long)
+  0.00      0.17     0.00   944837     0.00     0.00  cv::Point_<int>::operator=(cv::Point_<int> const&)
+  0.00      0.17     0.00   773308     0.00     0.00  void std::_Destroy_aux<true>::__destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*)
+  0.00      0.17     0.00   773308     0.00     0.00  std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_deallocate(cv::Point_<int>*, unsigned long)
+  0.00      0.17     0.00   773308     0.00     0.00  void std::_Destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*)
+  0.00      0.17     0.00   773308     0.00     0.00  void std::_Destroy<cv::Point_<int>*, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&)
+  0.00      0.17     0.00   673308     0.00     0.00  __gnu_cxx::new_allocator<cv::Point_<int> >::deallocate(cv::Point_<int>*, unsigned long)
+  0.00      0.17     0.00   673308     0.00     0.00  __gnu_cxx::new_allocator<cv::Point_<int> >::allocate(unsigned long, void const*)
+  0.00      0.17     0.00   673308     0.00     0.00  __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::difference_type __gnu_cxx::operator-<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&)
+  0.00      0.17     0.00   673308     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_check_len(unsigned long, char const*) const
+  0.00      0.17     0.00   673308     0.00     0.00  std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_allocate(unsigned long)
+  0.00      0.17     0.00   673308     0.00     0.00  std::allocator_traits<std::allocator<cv::Point_<int> > >::deallocate(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, unsigned long)
+  0.00      0.17     0.00   673308     0.00     0.00  std::allocator_traits<std::allocator<cv::Point_<int> > >::allocate(std::allocator<cv::Point_<int> >&, unsigned long)
+  0.00      0.17     0.00   673308     0.00    71.74  void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&)
+  0.00      0.17     0.00   673308     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end()
+  0.00      0.17     0.00   673308     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin()
+  0.00      0.17     0.00   673308     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.17     0.00   300000     0.00     0.00  cv::MatStep::operator[](int)
+  0.00      0.17     0.00   200000     0.00     0.00  __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int> const* const&)
+  0.00      0.17     0.00   200000     0.00     0.00  __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const
+  0.00      0.17     0.00   100001     0.00     0.00  cv::Mat::release()
+  0.00      0.17     0.00   100001     0.00     0.00  cv::Mat::~Mat()
+  0.00      0.17     0.00   100001     0.00     0.00  cv::MatSize::MatSize(int*)
+  0.00      0.17     0.00   100001     0.00     0.00  cv::MatStep::MatStep(unsigned long)
+  0.00      0.17     0.00   100000     0.00     0.00  cv::_InputArray::_InputArray(cv::Mat const&)
+  0.00      0.17     0.00   100000     0.00     1.64  cv::_OutputArray::_OutputArray<int>(std::vector<int, std::allocator<int> >&)
+  0.00      0.17     0.00   100000     0.00     0.00  cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool)
+  0.00      0.17     0.00   100000     0.00     0.00  cv::RNG::operator unsigned int()
+  0.00      0.17     0.00   100000     0.00     3.28  cv::Scalar_<double>::all(double)
+  0.00      0.17     0.00   100000     0.00     0.00  __gnu_cxx::new_allocator<cv::Point_<int> >::new_allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  __gnu_cxx::new_allocator<cv::Point_<int> >::~new_allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long)
+  0.00      0.17     0.00   100000     0.00     0.00  __gnu_cxx::new_allocator<int>::new_allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  __gnu_cxx::new_allocator<int>::~new_allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  bool __gnu_cxx::operator==<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&)
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end() const
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin() const
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::empty() const
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::operator[](unsigned long) const
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<int, std::allocator<int> >::size() const
+  0.00      0.17     0.00   100000     0.00     0.00  std::allocator<cv::Point_<int> >::allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  std::allocator<cv::Point_<int> >::~allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  std::allocator<int>::allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  std::allocator<int>::~allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::_Vector_impl()
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::~_Vector_impl()
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_base()
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~_Vector_base()
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl()
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long)
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator()
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_base()
+  0.00      0.17     0.00   100000     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::~_Vector_base()
+  0.00      0.17     0.00   100000     0.00     0.00  std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long)
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::vector()
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~vector()
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<int, std::allocator<int> >::vector()
+  0.00      0.17     0.00   100000     0.00     0.00  std::vector<int, std::allocator<int> >::~vector()
+  0.00      0.17     0.00   100000     0.00     0.00  void std::_Destroy<int*>(int*, int*)
+  0.00      0.17     0.00   100000     0.00     0.00  void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
+  0.00      0.17     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.17     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.17     0.00        1     0.00     0.00  cv::Mat::create(int, int, int)
+  0.00      0.17     0.00        1     0.00     0.00  cv::Mat::Mat(int, int, int)
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 5.88% of 0.17 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.03    0.14                 main [1]
+                0.00    0.06 5060516/5060516     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::push_back(cv::Point_<int> const&) [2]
+                0.03    0.00 10121032/10121032     cv::RNG::uniform(int, int) [8]
+                0.01    0.01 6005353/6105353     cv::Scalar_<double>::Scalar_(double, double, double, double) [10]
+                0.01    0.00 6005353/6005353     cv::_InputOutputArray::~_InputOutputArray() [19]
+                0.00    0.01 6005353/6005353     cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [22]
+                0.01    0.00 7995027/13055543     cv::Point_<int>::Point_(cv::Point_<int> const&) [13]
+                0.00    0.00  100000/100000      cv::Scalar_<double>::all(double) [24]
+                0.00    0.00  100000/100000      cv::_OutputArray::_OutputArray<int>(std::vector<int, std::allocator<int> >&) [25]
+                0.00    0.00 6105353/6105353     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::operator[](unsigned long) [45]
+                0.00    0.00 5060516/5060516     cv::Point_<int>::Point_() [46]
+                0.00    0.00 1044837/1044837     std::vector<int, std::allocator<int> >::operator[](unsigned long) [56]
+                0.00    0.00  944837/944837      cv::Point_<int>::operator=(cv::Point_<int> const&) [57]
+                0.00    0.00  100001/100001      cv::Mat::~Mat() [76]
+                0.00    0.00  100000/100000      cv::RNG::operator unsigned int() [81]
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::vector() [109]
+                0.00    0.00  100000/100000      std::vector<int, std::allocator<int> >::vector() [111]
+                0.00    0.00  100000/100000      cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [80]
+                0.00    0.00  100000/100000      cv::_InputArray::_InputArray(cv::Mat const&) [79]
+                0.00    0.00  100000/6205353     cv::_InputArray::~_InputArray() [42]
+                0.00    0.00  100000/6105353     cv::_OutputArray::~_OutputArray() [44]
+                0.00    0.00  100000/100000      std::vector<int, std::allocator<int> >::size() const [92]
+                0.00    0.00  100000/100000      std::vector<int, std::allocator<int> >::~vector() [112]
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~vector() [110]
+                0.00    0.00       1/1           cv::Mat::Mat(int, int, int) [118]
+-----------------------------------------------
+                0.00    0.06 5060516/5060516     main [1]
+[2]     37.6    0.00    0.06 5060516         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::push_back(cv::Point_<int> const&) [2]
+                0.00    0.05  673308/673308      void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+                0.00    0.02 4387208/5060516     void std::allocator_traits<std::allocator<cv::Point_<int> > >::construct<cv::Point_<int>, cv::Point_<int> const&>(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, cv::Point_<int> const&) [12]
+                0.00    0.00  673308/673308      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end() [69]
+-----------------------------------------------
+                0.00    0.05  673308/673308      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::push_back(cv::Point_<int> const&) [2]
+[3]     28.4    0.00    0.05  673308         void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+                0.00    0.05 1346616/1346616     cv::Point_<int>* std::__uninitialized_move_if_noexcept_a<cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> > >(cv::Point_<int>*, cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [4]
+                0.00    0.00  673308/5060516     void std::allocator_traits<std::allocator<cv::Point_<int> > >::construct<cv::Point_<int>, cv::Point_<int> const&>(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, cv::Point_<int> const&) [12]
+                0.00    0.00 2019924/2119924     std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator() [50]
+                0.00    0.00 1346616/2693232     __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const [48]
+                0.00    0.00  673308/673308      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_check_len(unsigned long, char const*) const [65]
+                0.00    0.00  673308/673308      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin() [70]
+                0.00    0.00  673308/673308      __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::difference_type __gnu_cxx::operator-<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&) [64]
+                0.00    0.00  673308/673308      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_allocate(unsigned long) [66]
+                0.00    0.00  673308/10794340     cv::Point_<int> const& std::forward<cv::Point_<int> const&>(std::remove_reference<cv::Point_<int> const&>::type&) [35]
+                0.00    0.00  673308/773308      void std::_Destroy<cv::Point_<int>*, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [61]
+                0.00    0.00  673308/773308      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_deallocate(cv::Point_<int>*, unsigned long) [59]
+-----------------------------------------------
+                0.00    0.05 1346616/1346616     void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+[4]     27.0    0.00    0.05 1346616         cv::Point_<int>* std::__uninitialized_move_if_noexcept_a<cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> > >(cv::Point_<int>*, cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [4]
+                0.00    0.04 1346616/1346616     cv::Point_<int>* std::__uninitialized_copy_a<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, cv::Point_<int> >(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [7]
+                0.01    0.00 2693232/2693232     std::move_iterator<cv::Point_<int>*> std::__make_move_if_noexcept_iterator<cv::Point_<int>, std::move_iterator<cv::Point_<int>*> >(cv::Point_<int>*) [20]
+-----------------------------------------------
+                0.01    0.03 1346616/1346616     cv::Point_<int>* std::uninitialized_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [6]
+[5]     21.1    0.01    0.03 1346616         cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [5]
+                0.01    0.01 8602191/8602191     bool std::operator!=<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&) [9]
+                0.00    0.01 7255575/7255575     void std::_Construct<cv::Point_<int>, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>&&) [23]
+                0.00    0.00 7255575/7255575     std::move_iterator<cv::Point_<int>*>::operator*() const [38]
+                0.00    0.00 7255575/7255575     cv::Point_<int>* std::__addressof<cv::Point_<int> >(cv::Point_<int>&) [40]
+                0.00    0.00 7255575/7255575     std::move_iterator<cv::Point_<int>*>::operator++() [39]
+-----------------------------------------------
+                0.00    0.04 1346616/1346616     cv::Point_<int>* std::__uninitialized_copy_a<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, cv::Point_<int> >(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [7]
+[6]     21.1    0.00    0.04 1346616         cv::Point_<int>* std::uninitialized_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [6]
+                0.01    0.03 1346616/1346616     cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [5]
+-----------------------------------------------
+                0.00    0.04 1346616/1346616     cv::Point_<int>* std::__uninitialized_move_if_noexcept_a<cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> > >(cv::Point_<int>*, cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [4]
+[7]     21.1    0.00    0.04 1346616         cv::Point_<int>* std::__uninitialized_copy_a<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, cv::Point_<int> >(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [7]
+                0.00    0.04 1346616/1346616     cv::Point_<int>* std::uninitialized_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [6]
+-----------------------------------------------
+                0.03    0.00 10121032/10121032     main [1]
+[8]     17.6    0.03    0.00 10121032         cv::RNG::uniform(int, int) [8]
+                0.00    0.00 10121032/10221032     cv::RNG::next() [36]
+-----------------------------------------------
+                0.01    0.01 8602191/8602191     cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [5]
+[9]     11.8    0.01    0.01 8602191         bool std::operator!=<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&) [9]
+                0.01    0.00 8602191/8602191     bool std::operator==<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&) [15]
+-----------------------------------------------
+                0.00    0.00  100000/6105353     cv::Scalar_<double>::all(double) [24]
+                0.01    0.01 6005353/6105353     main [1]
+[10]    11.8    0.01    0.01 6105353         cv::Scalar_<double>::Scalar_(double, double, double, double) [10]
+                0.00    0.01 6105353/6105353     cv::Vec<double, 4>::Vec() [17]
+-----------------------------------------------
+                0.01    0.01 5060516/5060516     void std::allocator_traits<std::allocator<cv::Point_<int> > >::construct<cv::Point_<int>, cv::Point_<int> const&>(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, cv::Point_<int> const&) [12]
+[11]    10.6    0.01    0.01 5060516         void __gnu_cxx::new_allocator<cv::Point_<int> >::construct<cv::Point_<int>, cv::Point_<int> const&>(cv::Point_<int>*, cv::Point_<int> const&) [11]
+                0.00    0.00 5060516/12316091     operator new(unsigned long, void*) [14]
+                0.00    0.00 5060516/13055543     cv::Point_<int>::Point_(cv::Point_<int> const&) [13]
+                0.00    0.00 5060516/10794340     cv::Point_<int> const& std::forward<cv::Point_<int> const&>(std::remove_reference<cv::Point_<int> const&>::type&) [35]
+-----------------------------------------------
+                0.00    0.00  673308/5060516     void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+                0.00    0.02 4387208/5060516     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::push_back(cv::Point_<int> const&) [2]
+[12]    10.6    0.00    0.02 5060516         void std::allocator_traits<std::allocator<cv::Point_<int> > >::construct<cv::Point_<int>, cv::Point_<int> const&>(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, cv::Point_<int> const&) [12]
+                0.01    0.01 5060516/5060516     void __gnu_cxx::new_allocator<cv::Point_<int> >::construct<cv::Point_<int>, cv::Point_<int> const&>(cv::Point_<int>*, cv::Point_<int> const&) [11]
+                0.00    0.00 5060516/10794340     cv::Point_<int> const& std::forward<cv::Point_<int> const&>(std::remove_reference<cv::Point_<int> const&>::type&) [35]
+-----------------------------------------------
+                0.00    0.00 5060516/13055543     void __gnu_cxx::new_allocator<cv::Point_<int> >::construct<cv::Point_<int>, cv::Point_<int> const&>(cv::Point_<int>*, cv::Point_<int> const&) [11]
+                0.01    0.00 7995027/13055543     main [1]
+[13]     5.9    0.01    0.00 13055543         cv::Point_<int>::Point_(cv::Point_<int> const&) [13]
+-----------------------------------------------
+                0.00    0.00 5060516/12316091     void __gnu_cxx::new_allocator<cv::Point_<int> >::construct<cv::Point_<int>, cv::Point_<int> const&>(cv::Point_<int>*, cv::Point_<int> const&) [11]
+                0.01    0.00 7255575/12316091     void std::_Construct<cv::Point_<int>, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>&&) [23]
+[14]     5.9    0.01    0.00 12316091         operator new(unsigned long, void*) [14]
+-----------------------------------------------
+                0.01    0.00 8602191/8602191     bool std::operator!=<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&) [9]
+[15]     5.9    0.01    0.00 8602191         bool std::operator==<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&) [15]
+                0.00    0.00 17204382/17204382     std::move_iterator<cv::Point_<int>*>::base() const [33]
+-----------------------------------------------
+                0.00    0.00  100000/6105353     cv::_OutputArray::_OutputArray<int>(std::vector<int, std::allocator<int> >&) [25]
+                0.01    0.00 6005353/6105353     cv::_OutputArray::_OutputArray() [21]
+[16]     5.9    0.01    0.00 6105353         cv::_InputArray::_InputArray() [16]
+                0.00    0.00 6105353/6205353     cv::Size_<int>::Size_() [43]
+                0.00    0.00 6105353/18316059     cv::_InputArray::init(int, void const*) [32]
+-----------------------------------------------
+                0.00    0.01 6105353/6105353     cv::Scalar_<double>::Scalar_(double, double, double, double) [10]
+[17]     5.9    0.00    0.01 6105353         cv::Vec<double, 4>::Vec() [17]
+                0.01    0.00 6105353/6105353     cv::Matx<double, 4, 1>::Matx() [18]
+-----------------------------------------------
+                0.01    0.00 6105353/6105353     cv::Vec<double, 4>::Vec() [17]
+[18]     5.9    0.01    0.00 6105353         cv::Matx<double, 4, 1>::Matx() [18]
+-----------------------------------------------
+                0.01    0.00 6005353/6005353     main [1]
+[19]     5.9    0.01    0.00 6005353         cv::_InputOutputArray::~_InputOutputArray() [19]
+                0.00    0.00 6005353/6105353     cv::_OutputArray::~_OutputArray() [44]
+-----------------------------------------------
+                0.01    0.00 2693232/2693232     cv::Point_<int>* std::__uninitialized_move_if_noexcept_a<cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> > >(cv::Point_<int>*, cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [4]
+[20]     5.9    0.01    0.00 2693232         std::move_iterator<cv::Point_<int>*> std::__make_move_if_noexcept_iterator<cv::Point_<int>, std::move_iterator<cv::Point_<int>*> >(cv::Point_<int>*) [20]
+                0.00    0.00 2693232/2693232     std::move_iterator<cv::Point_<int>*>::move_iterator(cv::Point_<int>*) [49]
+-----------------------------------------------
+                0.00    0.01 6005353/6005353     cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [22]
+[21]     5.8    0.00    0.01 6005353         cv::_OutputArray::_OutputArray() [21]
+                0.01    0.00 6005353/6105353     cv::_InputArray::_InputArray() [16]
+                0.00    0.00 6005353/18316059     cv::_InputArray::init(int, void const*) [32]
+-----------------------------------------------
+                0.00    0.01 6005353/6005353     main [1]
+[22]     5.8    0.00    0.01 6005353         cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [22]
+                0.00    0.01 6005353/6005353     cv::_OutputArray::_OutputArray() [21]
+                0.00    0.00 6005353/18316059     cv::_InputArray::init(int, void const*) [32]
+-----------------------------------------------
+                0.00    0.01 7255575/7255575     cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [5]
+[23]     3.5    0.00    0.01 7255575         void std::_Construct<cv::Point_<int>, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>&&) [23]
+                0.01    0.00 7255575/12316091     operator new(unsigned long, void*) [14]
+                0.00    0.00 7255575/7255575     cv::Point_<int>&& std::forward<cv::Point_<int> >(std::remove_reference<cv::Point_<int> >::type&) [41]
+                0.00    0.00 7255575/7255575     cv::Point_<int>::Point_(cv::Point_<int>&&) [37]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[24]     0.2    0.00    0.00  100000         cv::Scalar_<double>::all(double) [24]
+                0.00    0.00  100000/6105353     cv::Scalar_<double>::Scalar_(double, double, double, double) [10]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[25]     0.1    0.00    0.00  100000         cv::_OutputArray::_OutputArray<int>(std::vector<int, std::allocator<int> >&) [25]
+                0.00    0.00  100000/6105353     cv::_InputArray::_InputArray() [16]
+                0.00    0.00  100000/18316059     cv::_InputArray::init(int, void const*) [32]
+-----------------------------------------------
+                0.00    0.00  100000/18316059     cv::_InputArray::_InputArray(cv::Mat const&) [79]
+                0.00    0.00  100000/18316059     cv::_OutputArray::_OutputArray<int>(std::vector<int, std::allocator<int> >&) [25]
+                0.00    0.00 6005353/18316059     cv::_OutputArray::_OutputArray() [21]
+                0.00    0.00 6005353/18316059     cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [22]
+                0.00    0.00 6105353/18316059     cv::_InputArray::_InputArray() [16]
+[32]     0.0    0.00    0.00 18316059         cv::_InputArray::init(int, void const*) [32]
+-----------------------------------------------
+                0.00    0.00 17204382/17204382     bool std::operator==<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&) [15]
+[33]     0.0    0.00    0.00 17204382         std::move_iterator<cv::Point_<int>*>::base() const [33]
+-----------------------------------------------
+                0.00    0.00 14511150/14511150     cv::Point_<int>::Point_(cv::Point_<int>&&) [37]
+[34]     0.0    0.00    0.00 14511150         std::remove_reference<int&>::type&& std::move<int&>(int&) [34]
+-----------------------------------------------
+                0.00    0.00  673308/10794340     void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+                0.00    0.00 5060516/10794340     void std::allocator_traits<std::allocator<cv::Point_<int> > >::construct<cv::Point_<int>, cv::Point_<int> const&>(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, cv::Point_<int> const&) [12]
+                0.00    0.00 5060516/10794340     void __gnu_cxx::new_allocator<cv::Point_<int> >::construct<cv::Point_<int>, cv::Point_<int> const&>(cv::Point_<int>*, cv::Point_<int> const&) [11]
+[35]     0.0    0.00    0.00 10794340         cv::Point_<int> const& std::forward<cv::Point_<int> const&>(std::remove_reference<cv::Point_<int> const&>::type&) [35]
+-----------------------------------------------
+                0.00    0.00  100000/10221032     cv::RNG::operator unsigned int() [81]
+                0.00    0.00 10121032/10221032     cv::RNG::uniform(int, int) [8]
+[36]     0.0    0.00    0.00 10221032         cv::RNG::next() [36]
+-----------------------------------------------
+                0.00    0.00 7255575/7255575     void std::_Construct<cv::Point_<int>, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>&&) [23]
+[37]     0.0    0.00    0.00 7255575         cv::Point_<int>::Point_(cv::Point_<int>&&) [37]
+                0.00    0.00 14511150/14511150     std::remove_reference<int&>::type&& std::move<int&>(int&) [34]
+-----------------------------------------------
+                0.00    0.00 7255575/7255575     cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [5]
+[38]     0.0    0.00    0.00 7255575         std::move_iterator<cv::Point_<int>*>::operator*() const [38]
+-----------------------------------------------
+                0.00    0.00 7255575/7255575     cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [5]
+[39]     0.0    0.00    0.00 7255575         std::move_iterator<cv::Point_<int>*>::operator++() [39]
+-----------------------------------------------
+                0.00    0.00 7255575/7255575     cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*) [5]
+[40]     0.0    0.00    0.00 7255575         cv::Point_<int>* std::__addressof<cv::Point_<int> >(cv::Point_<int>&) [40]
+-----------------------------------------------
+                0.00    0.00 7255575/7255575     void std::_Construct<cv::Point_<int>, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>&&) [23]
+[41]     0.0    0.00    0.00 7255575         cv::Point_<int>&& std::forward<cv::Point_<int> >(std::remove_reference<cv::Point_<int> >::type&) [41]
+-----------------------------------------------
+                0.00    0.00  100000/6205353     main [1]
+                0.00    0.00 6105353/6205353     cv::_OutputArray::~_OutputArray() [44]
+[42]     0.0    0.00    0.00 6205353         cv::_InputArray::~_InputArray() [42]
+-----------------------------------------------
+                0.00    0.00  100000/6205353     cv::_InputArray::_InputArray(cv::Mat const&) [79]
+                0.00    0.00 6105353/6205353     cv::_InputArray::_InputArray() [16]
+[43]     0.0    0.00    0.00 6205353         cv::Size_<int>::Size_() [43]
+-----------------------------------------------
+                0.00    0.00  100000/6105353     main [1]
+                0.00    0.00 6005353/6105353     cv::_InputOutputArray::~_InputOutputArray() [19]
+[44]     0.0    0.00    0.00 6105353         cv::_OutputArray::~_OutputArray() [44]
+                0.00    0.00 6105353/6205353     cv::_InputArray::~_InputArray() [42]
+-----------------------------------------------
+                0.00    0.00 6105353/6105353     main [1]
+[45]     0.0    0.00    0.00 6105353         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::operator[](unsigned long) [45]
+-----------------------------------------------
+                0.00    0.00 5060516/5060516     main [1]
+[46]     0.0    0.00    0.00 5060516         cv::Point_<int>::Point_() [46]
+-----------------------------------------------
+                0.00    0.00  100000/2793232     cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [80]
+                0.00    0.00 2693232/2793232     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_check_len(unsigned long, char const*) const [65]
+[47]     0.0    0.00    0.00 2793232         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::size() const [47]
+-----------------------------------------------
+                0.00    0.00 1346616/2693232     void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+                0.00    0.00 1346616/2693232     __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::difference_type __gnu_cxx::operator-<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&) [64]
+[48]     0.0    0.00    0.00 2693232         __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const [48]
+-----------------------------------------------
+                0.00    0.00 2693232/2693232     std::move_iterator<cv::Point_<int>*> std::__make_move_if_noexcept_iterator<cv::Point_<int>, std::move_iterator<cv::Point_<int>*> >(cv::Point_<int>*) [20]
+[49]     0.0    0.00    0.00 2693232         std::move_iterator<cv::Point_<int>*>::move_iterator(cv::Point_<int>*) [49]
+-----------------------------------------------
+                0.00    0.00  100000/2119924     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~vector() [110]
+                0.00    0.00 2019924/2119924     void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+[50]     0.0    0.00    0.00 2119924         std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator() [50]
+-----------------------------------------------
+                0.00    0.00  673308/2019924     __gnu_cxx::new_allocator<cv::Point_<int> >::allocate(unsigned long, void const*) [63]
+                0.00    0.00 1346616/2019924     std::allocator_traits<std::allocator<cv::Point_<int> > >::max_size(std::allocator<cv::Point_<int> > const&) [55]
+[51]     0.0    0.00    0.00 2019924         __gnu_cxx::new_allocator<cv::Point_<int> >::max_size() const [51]
+-----------------------------------------------
+                0.00    0.00  673308/1346616     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end() [69]
+                0.00    0.00  673308/1346616     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin() [70]
+[52]     0.0    0.00    0.00 1346616         __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int>* const&) [52]
+-----------------------------------------------
+                0.00    0.00 1346616/1346616     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::max_size() const [54]
+[53]     0.0    0.00    0.00 1346616         std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator() const [53]
+-----------------------------------------------
+                0.00    0.00 1346616/1346616     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_check_len(unsigned long, char const*) const [65]
+[54]     0.0    0.00    0.00 1346616         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::max_size() const [54]
+                0.00    0.00 1346616/1346616     std::allocator_traits<std::allocator<cv::Point_<int> > >::max_size(std::allocator<cv::Point_<int> > const&) [55]
+                0.00    0.00 1346616/1346616     std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator() const [53]
+-----------------------------------------------
+                0.00    0.00 1346616/1346616     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::max_size() const [54]
+[55]     0.0    0.00    0.00 1346616         std::allocator_traits<std::allocator<cv::Point_<int> > >::max_size(std::allocator<cv::Point_<int> > const&) [55]
+                0.00    0.00 1346616/2019924     __gnu_cxx::new_allocator<cv::Point_<int> >::max_size() const [51]
+-----------------------------------------------
+                0.00    0.00 1044837/1044837     main [1]
+[56]     0.0    0.00    0.00 1044837         std::vector<int, std::allocator<int> >::operator[](unsigned long) [56]
+-----------------------------------------------
+                0.00    0.00  944837/944837      main [1]
+[57]     0.0    0.00    0.00  944837         cv::Point_<int>::operator=(cv::Point_<int> const&) [57]
+-----------------------------------------------
+                0.00    0.00  773308/773308      void std::_Destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*) [60]
+[58]     0.0    0.00    0.00  773308         void std::_Destroy_aux<true>::__destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*) [58]
+-----------------------------------------------
+                0.00    0.00  100000/773308      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~_Vector_base() [101]
+                0.00    0.00  673308/773308      void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+[59]     0.0    0.00    0.00  773308         std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_deallocate(cv::Point_<int>*, unsigned long) [59]
+                0.00    0.00  673308/673308      std::allocator_traits<std::allocator<cv::Point_<int> > >::deallocate(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, unsigned long) [67]
+-----------------------------------------------
+                0.00    0.00  773308/773308      void std::_Destroy<cv::Point_<int>*, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [61]
+[60]     0.0    0.00    0.00  773308         void std::_Destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*) [60]
+                0.00    0.00  773308/773308      void std::_Destroy_aux<true>::__destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*) [58]
+-----------------------------------------------
+                0.00    0.00  100000/773308      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~vector() [110]
+                0.00    0.00  673308/773308      void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+[61]     0.0    0.00    0.00  773308         void std::_Destroy<cv::Point_<int>*, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [61]
+                0.00    0.00  773308/773308      void std::_Destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*) [60]
+-----------------------------------------------
+                0.00    0.00  673308/673308      std::allocator_traits<std::allocator<cv::Point_<int> > >::deallocate(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, unsigned long) [67]
+[62]     0.0    0.00    0.00  673308         __gnu_cxx::new_allocator<cv::Point_<int> >::deallocate(cv::Point_<int>*, unsigned long) [62]
+-----------------------------------------------
+                0.00    0.00  673308/673308      std::allocator_traits<std::allocator<cv::Point_<int> > >::allocate(std::allocator<cv::Point_<int> >&, unsigned long) [68]
+[63]     0.0    0.00    0.00  673308         __gnu_cxx::new_allocator<cv::Point_<int> >::allocate(unsigned long, void const*) [63]
+                0.00    0.00  673308/2019924     __gnu_cxx::new_allocator<cv::Point_<int> >::max_size() const [51]
+-----------------------------------------------
+                0.00    0.00  673308/673308      void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+[64]     0.0    0.00    0.00  673308         __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::difference_type __gnu_cxx::operator-<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&) [64]
+                0.00    0.00 1346616/2693232     __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const [48]
+-----------------------------------------------
+                0.00    0.00  673308/673308      void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+[65]     0.0    0.00    0.00  673308         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_check_len(unsigned long, char const*) const [65]
+                0.00    0.00 2693232/2793232     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::size() const [47]
+                0.00    0.00 1346616/1346616     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::max_size() const [54]
+                0.00    0.00  673308/673308      unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [71]
+-----------------------------------------------
+                0.00    0.00  673308/673308      void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+[66]     0.0    0.00    0.00  673308         std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_allocate(unsigned long) [66]
+                0.00    0.00  673308/673308      std::allocator_traits<std::allocator<cv::Point_<int> > >::allocate(std::allocator<cv::Point_<int> >&, unsigned long) [68]
+-----------------------------------------------
+                0.00    0.00  673308/673308      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_deallocate(cv::Point_<int>*, unsigned long) [59]
+[67]     0.0    0.00    0.00  673308         std::allocator_traits<std::allocator<cv::Point_<int> > >::deallocate(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, unsigned long) [67]
+                0.00    0.00  673308/673308      __gnu_cxx::new_allocator<cv::Point_<int> >::deallocate(cv::Point_<int>*, unsigned long) [62]
+-----------------------------------------------
+                0.00    0.00  673308/673308      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_allocate(unsigned long) [66]
+[68]     0.0    0.00    0.00  673308         std::allocator_traits<std::allocator<cv::Point_<int> > >::allocate(std::allocator<cv::Point_<int> >&, unsigned long) [68]
+                0.00    0.00  673308/673308      __gnu_cxx::new_allocator<cv::Point_<int> >::allocate(unsigned long, void const*) [63]
+-----------------------------------------------
+                0.00    0.00  673308/673308      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::push_back(cv::Point_<int> const&) [2]
+[69]     0.0    0.00    0.00  673308         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end() [69]
+                0.00    0.00  673308/1346616     __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int>* const&) [52]
+-----------------------------------------------
+                0.00    0.00  673308/673308      void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&) [3]
+[70]     0.0    0.00    0.00  673308         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin() [70]
+                0.00    0.00  673308/1346616     __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int>* const&) [52]
+-----------------------------------------------
+                0.00    0.00  673308/673308      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_check_len(unsigned long, char const*) const [65]
+[71]     0.0    0.00    0.00  673308         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [71]
+-----------------------------------------------
+                0.00    0.00  300000/300000      cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [80]
+[72]     0.0    0.00    0.00  300000         cv::MatStep::operator[](int) [72]
+-----------------------------------------------
+                0.00    0.00  100000/200000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin() const [89]
+                0.00    0.00  100000/200000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end() const [88]
+[73]     0.0    0.00    0.00  200000         __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int> const* const&) [73]
+-----------------------------------------------
+                0.00    0.00  200000/200000      bool __gnu_cxx::operator==<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&) [87]
+[74]     0.0    0.00    0.00  200000         __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const [74]
+-----------------------------------------------
+                0.00    0.00  100001/100001      cv::Mat::~Mat() [76]
+[75]     0.0    0.00    0.00  100001         cv::Mat::release() [75]
+-----------------------------------------------
+                0.00    0.00  100001/100001      main [1]
+[76]     0.0    0.00    0.00  100001         cv::Mat::~Mat() [76]
+                0.00    0.00  100001/100001      cv::Mat::release() [75]
+-----------------------------------------------
+                0.00    0.00       1/100001      cv::Mat::Mat(int, int, int) [118]
+                0.00    0.00  100000/100001      cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [80]
+[77]     0.0    0.00    0.00  100001         cv::MatSize::MatSize(int*) [77]
+-----------------------------------------------
+                0.00    0.00       1/100001      cv::Mat::Mat(int, int, int) [118]
+                0.00    0.00  100000/100001      cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [80]
+[78]     0.0    0.00    0.00  100001         cv::MatStep::MatStep(unsigned long) [78]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[79]     0.0    0.00    0.00  100000         cv::_InputArray::_InputArray(cv::Mat const&) [79]
+                0.00    0.00  100000/6205353     cv::Size_<int>::Size_() [43]
+                0.00    0.00  100000/18316059     cv::_InputArray::init(int, void const*) [32]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[80]     0.0    0.00    0.00  100000         cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [80]
+                0.00    0.00  300000/300000      cv::MatStep::operator[](int) [72]
+                0.00    0.00  100000/2793232     std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::size() const [47]
+                0.00    0.00  100000/100001      cv::MatSize::MatSize(int*) [77]
+                0.00    0.00  100000/100001      cv::MatStep::MatStep(unsigned long) [78]
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::empty() const [90]
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::operator[](unsigned long) const [91]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[81]     0.0    0.00    0.00  100000         cv::RNG::operator unsigned int() [81]
+                0.00    0.00  100000/10221032     cv::RNG::next() [36]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::allocator<cv::Point_<int> >::allocator() [93]
+[82]     0.0    0.00    0.00  100000         __gnu_cxx::new_allocator<cv::Point_<int> >::new_allocator() [82]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::allocator<cv::Point_<int> >::~allocator() [94]
+[83]     0.0    0.00    0.00  100000         __gnu_cxx::new_allocator<cv::Point_<int> >::~new_allocator() [83]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long) [108]
+[84]     0.0    0.00    0.00  100000         __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) [84]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::allocator<int>::allocator() [95]
+[85]     0.0    0.00    0.00  100000         __gnu_cxx::new_allocator<int>::new_allocator() [85]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::allocator<int>::~allocator() [96]
+[86]     0.0    0.00    0.00  100000         __gnu_cxx::new_allocator<int>::~new_allocator() [86]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::empty() const [90]
+[87]     0.0    0.00    0.00  100000         bool __gnu_cxx::operator==<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&) [87]
+                0.00    0.00  200000/200000      __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const [74]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::empty() const [90]
+[88]     0.0    0.00    0.00  100000         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end() const [88]
+                0.00    0.00  100000/200000      __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int> const* const&) [73]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::empty() const [90]
+[89]     0.0    0.00    0.00  100000         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin() const [89]
+                0.00    0.00  100000/200000      __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int> const* const&) [73]
+-----------------------------------------------
+                0.00    0.00  100000/100000      cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [80]
+[90]     0.0    0.00    0.00  100000         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::empty() const [90]
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end() const [88]
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin() const [89]
+                0.00    0.00  100000/100000      bool __gnu_cxx::operator==<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&) [87]
+-----------------------------------------------
+                0.00    0.00  100000/100000      cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [80]
+[91]     0.0    0.00    0.00  100000         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::operator[](unsigned long) const [91]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[92]     0.0    0.00    0.00  100000         std::vector<int, std::allocator<int> >::size() const [92]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::_Vector_impl() [98]
+[93]     0.0    0.00    0.00  100000         std::allocator<cv::Point_<int> >::allocator() [93]
+                0.00    0.00  100000/100000      __gnu_cxx::new_allocator<cv::Point_<int> >::new_allocator() [82]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::~_Vector_impl() [99]
+[94]     0.0    0.00    0.00  100000         std::allocator<cv::Point_<int> >::~allocator() [94]
+                0.00    0.00  100000/100000      __gnu_cxx::new_allocator<cv::Point_<int> >::~new_allocator() [83]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [102]
+[95]     0.0    0.00    0.00  100000         std::allocator<int>::allocator() [95]
+                0.00    0.00  100000/100000      __gnu_cxx::new_allocator<int>::new_allocator() [85]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [103]
+[96]     0.0    0.00    0.00  100000         std::allocator<int>::~allocator() [96]
+                0.00    0.00  100000/100000      __gnu_cxx::new_allocator<int>::~new_allocator() [86]
+-----------------------------------------------
+                0.00    0.00  100000/100000      void std::_Destroy<int*>(int*, int*) [113]
+[97]     0.0    0.00    0.00  100000         void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [97]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_base() [100]
+[98]     0.0    0.00    0.00  100000         std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::_Vector_impl() [98]
+                0.00    0.00  100000/100000      std::allocator<cv::Point_<int> >::allocator() [93]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~_Vector_base() [101]
+[99]     0.0    0.00    0.00  100000         std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::~_Vector_impl() [99]
+                0.00    0.00  100000/100000      std::allocator<cv::Point_<int> >::~allocator() [94]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::vector() [109]
+[100]    0.0    0.00    0.00  100000         std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_base() [100]
+                0.00    0.00  100000/100000      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::_Vector_impl() [98]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~vector() [110]
+[101]    0.0    0.00    0.00  100000         std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~_Vector_base() [101]
+                0.00    0.00  100000/773308      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_deallocate(cv::Point_<int>*, unsigned long) [59]
+                0.00    0.00  100000/100000      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::~_Vector_impl() [99]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_Vector_base() [106]
+[102]    0.0    0.00    0.00  100000         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [102]
+                0.00    0.00  100000/100000      std::allocator<int>::allocator() [95]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [107]
+[103]    0.0    0.00    0.00  100000         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [103]
+                0.00    0.00  100000/100000      std::allocator<int>::~allocator() [96]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [107]
+[104]    0.0    0.00    0.00  100000         std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long) [104]
+                0.00    0.00  100000/100000      std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long) [108]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<int, std::allocator<int> >::~vector() [112]
+[105]    0.0    0.00    0.00  100000         std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [105]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<int, std::allocator<int> >::vector() [111]
+[106]    0.0    0.00    0.00  100000         std::_Vector_base<int, std::allocator<int> >::_Vector_base() [106]
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [102]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<int, std::allocator<int> >::~vector() [112]
+[107]    0.0    0.00    0.00  100000         std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [107]
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long) [104]
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [103]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long) [104]
+[108]    0.0    0.00    0.00  100000         std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long) [108]
+                0.00    0.00  100000/100000      __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) [84]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[109]    0.0    0.00    0.00  100000         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::vector() [109]
+                0.00    0.00  100000/100000      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_base() [100]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[110]    0.0    0.00    0.00  100000         std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~vector() [110]
+                0.00    0.00  100000/2119924     std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator() [50]
+                0.00    0.00  100000/773308      void std::_Destroy<cv::Point_<int>*, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&) [61]
+                0.00    0.00  100000/100000      std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~_Vector_base() [101]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[111]    0.0    0.00    0.00  100000         std::vector<int, std::allocator<int> >::vector() [111]
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_Vector_base() [106]
+-----------------------------------------------
+                0.00    0.00  100000/100000      main [1]
+[112]    0.0    0.00    0.00  100000         std::vector<int, std::allocator<int> >::~vector() [112]
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [105]
+                0.00    0.00  100000/100000      void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [114]
+                0.00    0.00  100000/100000      std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [107]
+-----------------------------------------------
+                0.00    0.00  100000/100000      void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [114]
+[113]    0.0    0.00    0.00  100000         void std::_Destroy<int*>(int*, int*) [113]
+                0.00    0.00  100000/100000      void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [97]
+-----------------------------------------------
+                0.00    0.00  100000/100000      std::vector<int, std::allocator<int> >::~vector() [112]
+[114]    0.0    0.00    0.00  100000         void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [114]
+                0.00    0.00  100000/100000      void std::_Destroy<int*>(int*, int*) [113]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [133]
+[115]    0.0    0.00    0.00       1         _GLOBAL__sub_I_main [115]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [116]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [115]
+[116]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [116]
+-----------------------------------------------
+                0.00    0.00       1/1           cv::Mat::Mat(int, int, int) [118]
+[117]    0.0    0.00    0.00       1         cv::Mat::create(int, int, int) [117]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[118]    0.0    0.00    0.00       1         cv::Mat::Mat(int, int, int) [118]
+                0.00    0.00       1/100001      cv::MatSize::MatSize(int*) [77]
+                0.00    0.00       1/100001      cv::MatStep::MatStep(unsigned long) [78]
+                0.00    0.00       1/1           cv::Mat::create(int, int, int) [117]
+-----------------------------------------------
+
+Index by function name
+
+ [115] _GLOBAL__sub_I_main    [86] __gnu_cxx::new_allocator<int>::~new_allocator() [49] std::move_iterator<cv::Point_<int>*>::move_iterator(cv::Point_<int>*)
+ [116] __static_initialization_and_destruction_0(int, int) [73] __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int> const* const&) [39] std::move_iterator<cv::Point_<int>*>::operator++()
+  [32] cv::_InputArray::init(int, void const*) [52] __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::__normal_iterator(cv::Point_<int>* const&) [67] std::allocator_traits<std::allocator<cv::Point_<int> > >::deallocate(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, unsigned long)
+  [16] cv::_InputArray::_InputArray() [87] bool __gnu_cxx::operator==<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&) [68] std::allocator_traits<std::allocator<cv::Point_<int> > >::allocate(std::allocator<cv::Point_<int> >&, unsigned long)
+  [79] cv::_InputArray::_InputArray(cv::Mat const&) [64] __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::difference_type __gnu_cxx::operator-<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&, __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > > const&) [55] std::allocator_traits<std::allocator<cv::Point_<int> > >::max_size(std::allocator<cv::Point_<int> > const&)
+  [42] cv::_InputArray::~_InputArray() [51] __gnu_cxx::new_allocator<cv::Point_<int> >::max_size() const [12] void std::allocator_traits<std::allocator<cv::Point_<int> > >::construct<cv::Point_<int>, cv::Point_<int> const&>(std::allocator<cv::Point_<int> >&, cv::Point_<int>*, cv::Point_<int> const&)
+  [21] cv::_OutputArray::_OutputArray() [74] __gnu_cxx::__normal_iterator<cv::Point_<int> const*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const [108] std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long)
+  [25] cv::_OutputArray::_OutputArray<int>(std::vector<int, std::allocator<int> >&) [48] __gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >::base() const [5] cv::Point_<int>* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*)
+  [44] cv::_OutputArray::~_OutputArray() [53] std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator() const [3] void std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_realloc_insert<cv::Point_<int> const&>(__gnu_cxx::__normal_iterator<cv::Point_<int>*, std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > >, cv::Point_<int> const&)
+  [22] cv::_InputOutputArray::_InputOutputArray(cv::Mat&) [33] std::move_iterator<cv::Point_<int>*>::base() const [69] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end()
+  [19] cv::_InputOutputArray::~_InputOutputArray() [38] std::move_iterator<cv::Point_<int>*>::operator*() const [70] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin()
+ [117] cv::Mat::create(int, int, int) [65] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_check_len(unsigned long, char const*) const [2] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::push_back(cv::Point_<int> const&)
+  [75] cv::Mat::release()     [88] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::end() const [109] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::vector()
+ [118] cv::Mat::Mat(int, int, int) [47] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::size() const [110] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~vector()
+  [80] cv::Mat::Mat<cv::Point_<int> >(std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > > const&, bool) [89] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::begin() const [45] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::operator[](unsigned long)
+  [76] cv::Mat::~Mat()        [90] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::empty() const [111] std::vector<int, std::allocator<int> >::vector()
+  [36] cv::RNG::next()        [54] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::max_size() const [112] std::vector<int, std::allocator<int> >::~vector()
+   [8] cv::RNG::uniform(int, int) [91] std::vector<cv::Point_<int>, std::allocator<cv::Point_<int> > >::operator[](unsigned long) const [56] std::vector<int, std::allocator<int> >::operator[](unsigned long)
+  [81] cv::RNG::operator unsigned int() [92] std::vector<int, std::allocator<int> >::size() const [23] void std::_Construct<cv::Point_<int>, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>&&)
+  [17] cv::Vec<double, 4>::Vec() [93] std::allocator<cv::Point_<int> >::allocator() [40] cv::Point_<int>* std::__addressof<cv::Point_<int> >(cv::Point_<int>&)
+  [18] cv::Matx<double, 4, 1>::Matx() [94] std::allocator<cv::Point_<int> >::~allocator() [6] cv::Point_<int>* std::uninitialized_copy<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*)
+  [43] cv::Size_<int>::Size_() [95] std::allocator<int>::allocator() [7] cv::Point_<int>* std::__uninitialized_copy_a<std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, cv::Point_<int> >(std::move_iterator<cv::Point_<int>*>, std::move_iterator<cv::Point_<int>*>, cv::Point_<int>*, std::allocator<cv::Point_<int> >&)
+  [37] cv::Point_<int>::Point_(cv::Point_<int>&&) [96] std::allocator<int>::~allocator() [20] std::move_iterator<cv::Point_<int>*> std::__make_move_if_noexcept_iterator<cv::Point_<int>, std::move_iterator<cv::Point_<int>*> >(cv::Point_<int>*)
+  [13] cv::Point_<int>::Point_(cv::Point_<int> const&) [58] void std::_Destroy_aux<true>::__destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*) [4] cv::Point_<int>* std::__uninitialized_move_if_noexcept_a<cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> > >(cv::Point_<int>*, cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&)
+  [46] cv::Point_<int>::Point_() [97] void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [71] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  [57] cv::Point_<int>::operator=(cv::Point_<int> const&) [66] std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_allocate(unsigned long) [34] std::remove_reference<int&>::type&& std::move<int&>(int&)
+  [77] cv::MatSize::MatSize(int*) [98] std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::_Vector_impl() [41] cv::Point_<int>&& std::forward<cv::Point_<int> >(std::remove_reference<cv::Point_<int> >::type&)
+  [78] cv::MatStep::MatStep(unsigned long) [99] std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_impl::~_Vector_impl() [35] cv::Point_<int> const& std::forward<cv::Point_<int> const&>(std::remove_reference<cv::Point_<int> const&>::type&)
+  [72] cv::MatStep::operator[](int) [59] std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_deallocate(cv::Point_<int>*, unsigned long) [60] void std::_Destroy<cv::Point_<int>*>(cv::Point_<int>*, cv::Point_<int>*)
+  [24] cv::Scalar_<double>::all(double) [50] std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_M_get_Tp_allocator() [61] void std::_Destroy<cv::Point_<int>*, cv::Point_<int> >(cv::Point_<int>*, cv::Point_<int>*, std::allocator<cv::Point_<int> >&)
+  [10] cv::Scalar_<double>::Scalar_(double, double, double, double) [100] std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::_Vector_base() [113] void std::_Destroy<int*>(int*, int*)
+  [62] __gnu_cxx::new_allocator<cv::Point_<int> >::deallocate(cv::Point_<int>*, unsigned long) [101] std::_Vector_base<cv::Point_<int>, std::allocator<cv::Point_<int> > >::~_Vector_base() [114] void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
+  [63] __gnu_cxx::new_allocator<cv::Point_<int> >::allocate(unsigned long, void const*) [102] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [15] bool std::operator==<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&)
+  [11] void __gnu_cxx::new_allocator<cv::Point_<int> >::construct<cv::Point_<int>, cv::Point_<int> const&>(cv::Point_<int>*, cv::Point_<int> const&) [103] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [9] bool std::operator!=<cv::Point_<int>*>(std::move_iterator<cv::Point_<int>*> const&, std::move_iterator<cv::Point_<int>*> const&)
+  [82] __gnu_cxx::new_allocator<cv::Point_<int> >::new_allocator() [104] std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long) [14] operator new(unsigned long, void*)
+  [83] __gnu_cxx::new_allocator<cv::Point_<int> >::~new_allocator() [105] std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [1] main
+  [84] __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) [106] std::_Vector_base<int, std::allocator<int> >::_Vector_base()
+  [85] __gnu_cxx::new_allocator<int>::new_allocator() [107] std::_Vector_base<int, std::allocator<int> >::~_Vector_base()

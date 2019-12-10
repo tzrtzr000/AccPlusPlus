@@ -1,0 +1,262 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00       76     0.00     0.00  cv::Ptr<cv::Formatted>::operator->() const
+  0.00      0.00     0.00       76     0.00     0.00  std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::get() const
+  0.00      0.00     0.00       34     0.00     0.00  __gthread_active_p()
+  0.00      0.00     0.00       34     0.00     0.00  __gnu_cxx::__exchange_and_add(int volatile*, int)
+  0.00      0.00     0.00       34     0.00     0.00  __gnu_cxx::__exchange_and_add_dispatch(int*, int)
+  0.00      0.00     0.00       24     0.00     0.00  cv::Mat::release()
+  0.00      0.00     0.00       20     0.00     0.00  cv::operator<<(cv::FileStorage&, char const*)
+  0.00      0.00     0.00       12     0.00     0.00  cv::Mat::~Mat()
+  0.00      0.00     0.00        8     0.00     0.00  std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+  0.00      0.00     0.00        8     0.00     0.00  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  0.00      0.00     0.00        7     0.00     0.00  MyData::~MyData()
+  0.00      0.00     0.00        6     0.00     0.00  cv::Mat::Mat()
+  0.00      0.00     0.00        6     0.00     0.00  cv::MatSize::MatSize(int*)
+  0.00      0.00     0.00        6     0.00     0.00  cv::MatStep::MatStep(unsigned long)
+  0.00      0.00     0.00        5     0.00     0.00  MyData::MyData()
+  0.00      0.00     0.00        5     0.00     0.00  cv::FileNode::operator std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >[abi:cxx11]() const
+  0.00      0.00     0.00        5     0.00     0.00  operator<<(std::ostream&, MyData const&)
+  0.00      0.00     0.00        4     0.00     0.00  cv::Ptr<cv::Formatted>::~Ptr()
+  0.00      0.00     0.00        4     0.00     0.00  cv::Ptr<cv::Formatter>::~Ptr()
+  0.00      0.00     0.00        4     0.00     0.00  cv::operator<<(std::ostream&, cv::Ptr<cv::Formatted>)
+  0.00      0.00     0.00        4     0.00     0.00  cv::operator<<(std::ostream&, cv::Mat const&)
+  0.00      0.00     0.00        4     0.00     0.00  cv::Ptr<cv::Formatter>::operator->() const
+  0.00      0.00     0.00        4     0.00     0.00  std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::get() const
+  0.00      0.00     0.00        4     0.00     0.00  std::shared_ptr<cv::Formatted>::~shared_ptr()
+  0.00      0.00     0.00        4     0.00     0.00  std::shared_ptr<cv::Formatter>::~shared_ptr()
+  0.00      0.00     0.00        4     0.00     0.00  std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  0.00      0.00     0.00        4     0.00     0.00  std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  0.00      0.00     0.00        3     0.00     0.00  read(cv::FileNode const&, MyData&, MyData const&)
+  0.00      0.00     0.00        3     0.00     0.00  void cv::operator>><MyData>(cv::FileNode const&, MyData&)
+  0.00      0.00     0.00        2     0.00     0.00  write(cv::FileStorage&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, MyData const&)
+  0.00      0.00     0.00        2     0.00     0.00  cv::MatExpr::~MatExpr()
+  0.00      0.00     0.00        2     0.00     0.00  cv::FileStorage& cv::operator<< <MyData>(cv::FileStorage&, MyData const&)
+  0.00      0.00     0.00        2     0.00     0.00  cv::FileStorage& cv::operator<< <cv::Mat>(cv::FileStorage&, cv::Mat const&)
+  0.00      0.00     0.00        2     0.00     0.00  cv::FileStorage& cv::operator<< <double>(cv::FileStorage&, double const&)
+  0.00      0.00     0.00        2     0.00     0.00  cv::FileStorage& cv::operator<< <int>(cv::FileStorage&, int const&)
+  0.00      0.00     0.00        2     0.00     0.00  void cv::operator>><cv::Mat>(cv::FileNode const&, cv::Mat&)
+  0.00      0.00     0.00        2     0.00     0.00  MyData::read(cv::FileNode const&)
+  0.00      0.00     0.00        2     0.00     0.00  MyData::MyData(int)
+  0.00      0.00     0.00        2     0.00     0.00  cv::MatExpr::operator cv::Mat() const
+  0.00      0.00     0.00        2     0.00     0.00  MyData::write(cv::FileStorage&) const
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat_<double>::eye(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat_<double>::zeros(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  MyData::operator=(MyData const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00      76/76          cv::operator<<(std::ostream&, cv::Ptr<cv::Formatted>) [27]
+[8]      0.0    0.00    0.00      76         cv::Ptr<cv::Formatted>::operator->() const [8]
+                0.00    0.00      76/76          std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::get() const [9]
+-----------------------------------------------
+                0.00    0.00      76/76          cv::Ptr<cv::Formatted>::operator->() const [8]
+[9]      0.0    0.00    0.00      76         std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::get() const [9]
+-----------------------------------------------
+                0.00    0.00      34/34          __gnu_cxx::__exchange_and_add_dispatch(int*, int) [12]
+[10]     0.0    0.00    0.00      34         __gthread_active_p() [10]
+-----------------------------------------------
+                0.00    0.00      34/34          __gnu_cxx::__exchange_and_add_dispatch(int*, int) [12]
+[11]     0.0    0.00    0.00      34         __gnu_cxx::__exchange_and_add(int volatile*, int) [11]
+-----------------------------------------------
+                0.00    0.00      34/34          std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [17]
+[12]     0.0    0.00    0.00      34         __gnu_cxx::__exchange_and_add_dispatch(int*, int) [12]
+                0.00    0.00      34/34          __gthread_active_p() [10]
+                0.00    0.00      34/34          __gnu_cxx::__exchange_and_add(int volatile*, int) [11]
+-----------------------------------------------
+                0.00    0.00      24/24          cv::Mat::~Mat() [15]
+[13]     0.0    0.00    0.00      24         cv::Mat::release() [13]
+-----------------------------------------------
+                0.00    0.00      10/20          main [6]
+                0.00    0.00      10/20          MyData::write(cv::FileStorage&) const [47]
+[14]     0.0    0.00    0.00      20         cv::operator<<(cv::FileStorage&, char const*) [14]
+-----------------------------------------------
+                0.00    0.00       2/12          void cv::operator>><cv::Mat>(cv::FileNode const&, cv::Mat&) [43]
+                0.00    0.00       4/12          main [6]
+                0.00    0.00       6/12          cv::MatExpr::~MatExpr() [38]
+[15]     0.0    0.00    0.00      12         cv::Mat::~Mat() [15]
+                0.00    0.00      24/24          cv::Mat::release() [13]
+-----------------------------------------------
+                0.00    0.00       4/8           std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [34]
+                0.00    0.00       4/8           std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [33]
+[16]     0.0    0.00    0.00       8         std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [16]
+                0.00    0.00       8/8           std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [17]
+-----------------------------------------------
+                0.00    0.00       8/8           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [16]
+[17]     0.0    0.00    0.00       8         std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() [17]
+                0.00    0.00      34/34          __gnu_cxx::__exchange_and_add_dispatch(int*, int) [12]
+-----------------------------------------------
+                0.00    0.00       3/7           void cv::operator>><MyData>(cv::FileNode const&, MyData&) [36]
+                0.00    0.00       4/7           main [6]
+[18]     0.0    0.00    0.00       7         MyData::~MyData() [18]
+-----------------------------------------------
+                0.00    0.00       2/6           main [6]
+                0.00    0.00       2/6           void cv::operator>><cv::Mat>(cv::FileNode const&, cv::Mat&) [43]
+                0.00    0.00       2/6           cv::MatExpr::operator cv::Mat() const [46]
+[19]     0.0    0.00    0.00       6         cv::Mat::Mat() [19]
+                0.00    0.00       6/6           cv::MatSize::MatSize(int*) [20]
+                0.00    0.00       6/6           cv::MatStep::MatStep(unsigned long) [21]
+-----------------------------------------------
+                0.00    0.00       6/6           cv::Mat::Mat() [19]
+[20]     0.0    0.00    0.00       6         cv::MatSize::MatSize(int*) [20]
+-----------------------------------------------
+                0.00    0.00       6/6           cv::Mat::Mat() [19]
+[21]     0.0    0.00    0.00       6         cv::MatStep::MatStep(unsigned long) [21]
+-----------------------------------------------
+                0.00    0.00       2/5           main [6]
+                0.00    0.00       3/5           void cv::operator>><MyData>(cv::FileNode const&, MyData&) [36]
+[22]     0.0    0.00    0.00       5         MyData::MyData() [22]
+-----------------------------------------------
+                0.00    0.00       2/5           MyData::read(cv::FileNode const&) [44]
+                0.00    0.00       3/5           main [6]
+[23]     0.0    0.00    0.00       5         cv::FileNode::operator std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >[abi:cxx11]() const [23]
+-----------------------------------------------
+                0.00    0.00       5/5           main [6]
+[24]     0.0    0.00    0.00       5         operator<<(std::ostream&, MyData const&) [24]
+-----------------------------------------------
+                0.00    0.00       4/4           cv::operator<<(std::ostream&, cv::Mat const&) [28]
+[25]     0.0    0.00    0.00       4         cv::Ptr<cv::Formatted>::~Ptr() [25]
+                0.00    0.00       4/4           std::shared_ptr<cv::Formatted>::~shared_ptr() [31]
+-----------------------------------------------
+                0.00    0.00       4/4           cv::operator<<(std::ostream&, cv::Mat const&) [28]
+[26]     0.0    0.00    0.00       4         cv::Ptr<cv::Formatter>::~Ptr() [26]
+                0.00    0.00       4/4           std::shared_ptr<cv::Formatter>::~shared_ptr() [32]
+-----------------------------------------------
+                0.00    0.00       4/4           cv::operator<<(std::ostream&, cv::Mat const&) [28]
+[27]     0.0    0.00    0.00       4         cv::operator<<(std::ostream&, cv::Ptr<cv::Formatted>) [27]
+                0.00    0.00      76/76          cv::Ptr<cv::Formatted>::operator->() const [8]
+-----------------------------------------------
+                0.00    0.00       4/4           main [6]
+[28]     0.0    0.00    0.00       4         cv::operator<<(std::ostream&, cv::Mat const&) [28]
+                0.00    0.00       4/4           cv::Ptr<cv::Formatter>::operator->() const [29]
+                0.00    0.00       4/4           cv::operator<<(std::ostream&, cv::Ptr<cv::Formatted>) [27]
+                0.00    0.00       4/4           cv::Ptr<cv::Formatted>::~Ptr() [25]
+                0.00    0.00       4/4           cv::Ptr<cv::Formatter>::~Ptr() [26]
+-----------------------------------------------
+                0.00    0.00       4/4           cv::operator<<(std::ostream&, cv::Mat const&) [28]
+[29]     0.0    0.00    0.00       4         cv::Ptr<cv::Formatter>::operator->() const [29]
+                0.00    0.00       4/4           std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::get() const [30]
+-----------------------------------------------
+                0.00    0.00       4/4           cv::Ptr<cv::Formatter>::operator->() const [29]
+[30]     0.0    0.00    0.00       4         std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::get() const [30]
+-----------------------------------------------
+                0.00    0.00       4/4           cv::Ptr<cv::Formatted>::~Ptr() [25]
+[31]     0.0    0.00    0.00       4         std::shared_ptr<cv::Formatted>::~shared_ptr() [31]
+                0.00    0.00       4/4           std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [33]
+-----------------------------------------------
+                0.00    0.00       4/4           cv::Ptr<cv::Formatter>::~Ptr() [26]
+[32]     0.0    0.00    0.00       4         std::shared_ptr<cv::Formatter>::~shared_ptr() [32]
+                0.00    0.00       4/4           std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [34]
+-----------------------------------------------
+                0.00    0.00       4/4           std::shared_ptr<cv::Formatted>::~shared_ptr() [31]
+[33]     0.0    0.00    0.00       4         std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [33]
+                0.00    0.00       4/8           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [16]
+-----------------------------------------------
+                0.00    0.00       4/4           std::shared_ptr<cv::Formatter>::~shared_ptr() [32]
+[34]     0.0    0.00    0.00       4         std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr() [34]
+                0.00    0.00       4/8           std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count() [16]
+-----------------------------------------------
+                0.00    0.00       3/3           void cv::operator>><MyData>(cv::FileNode const&, MyData&) [36]
+[35]     0.0    0.00    0.00       3         read(cv::FileNode const&, MyData&, MyData const&) [35]
+                0.00    0.00       2/2           MyData::read(cv::FileNode const&) [44]
+                0.00    0.00       1/1           MyData::operator=(MyData const&) [52]
+-----------------------------------------------
+                0.00    0.00       3/3           main [6]
+[36]     0.0    0.00    0.00       3         void cv::operator>><MyData>(cv::FileNode const&, MyData&) [36]
+                0.00    0.00       3/5           MyData::MyData() [22]
+                0.00    0.00       3/3           read(cv::FileNode const&, MyData&, MyData const&) [35]
+                0.00    0.00       3/7           MyData::~MyData() [18]
+-----------------------------------------------
+                0.00    0.00       2/2           cv::FileStorage& cv::operator<< <MyData>(cv::FileStorage&, MyData const&) [39]
+[37]     0.0    0.00    0.00       2         write(cv::FileStorage&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, MyData const&) [37]
+                0.00    0.00       2/2           MyData::write(cv::FileStorage&) const [47]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[38]     0.0    0.00    0.00       2         cv::MatExpr::~MatExpr() [38]
+                0.00    0.00       6/12          cv::Mat::~Mat() [15]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[39]     0.0    0.00    0.00       2         cv::FileStorage& cv::operator<< <MyData>(cv::FileStorage&, MyData const&) [39]
+                0.00    0.00       2/2           write(cv::FileStorage&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, MyData const&) [37]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[40]     0.0    0.00    0.00       2         cv::FileStorage& cv::operator<< <cv::Mat>(cv::FileStorage&, cv::Mat const&) [40]
+-----------------------------------------------
+                0.00    0.00       2/2           MyData::write(cv::FileStorage&) const [47]
+[41]     0.0    0.00    0.00       2         cv::FileStorage& cv::operator<< <double>(cv::FileStorage&, double const&) [41]
+-----------------------------------------------
+                0.00    0.00       2/2           MyData::write(cv::FileStorage&) const [47]
+[42]     0.0    0.00    0.00       2         cv::FileStorage& cv::operator<< <int>(cv::FileStorage&, int const&) [42]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[43]     0.0    0.00    0.00       2         void cv::operator>><cv::Mat>(cv::FileNode const&, cv::Mat&) [43]
+                0.00    0.00       2/6           cv::Mat::Mat() [19]
+                0.00    0.00       2/12          cv::Mat::~Mat() [15]
+-----------------------------------------------
+                0.00    0.00       2/2           read(cv::FileNode const&, MyData&, MyData const&) [35]
+[44]     0.0    0.00    0.00       2         MyData::read(cv::FileNode const&) [44]
+                0.00    0.00       2/5           cv::FileNode::operator std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >[abi:cxx11]() const [23]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[45]     0.0    0.00    0.00       2         MyData::MyData(int) [45]
+-----------------------------------------------
+                0.00    0.00       2/2           main [6]
+[46]     0.0    0.00    0.00       2         cv::MatExpr::operator cv::Mat() const [46]
+                0.00    0.00       2/6           cv::Mat::Mat() [19]
+-----------------------------------------------
+                0.00    0.00       2/2           write(cv::FileStorage&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, MyData const&) [37]
+[47]     0.0    0.00    0.00       2         MyData::write(cv::FileStorage&) const [47]
+                0.00    0.00      10/20          cv::operator<<(cv::FileStorage&, char const*) [14]
+                0.00    0.00       2/2           cv::FileStorage& cv::operator<< <int>(cv::FileStorage&, int const&) [42]
+                0.00    0.00       2/2           cv::FileStorage& cv::operator<< <double>(cv::FileStorage&, double const&) [41]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [61]
+[48]     0.0    0.00    0.00       1         _GLOBAL__sub_I_main [48]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [49]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [48]
+[49]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [49]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[50]     0.0    0.00    0.00       1         cv::Mat_<double>::eye(int, int) [50]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[51]     0.0    0.00    0.00       1         cv::Mat_<double>::zeros(int, int) [51]
+-----------------------------------------------
+                0.00    0.00       1/1           read(cv::FileNode const&, MyData&, MyData const&) [35]
+[52]     0.0    0.00    0.00       1         MyData::operator=(MyData const&) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[53]     0.0    0.00    0.00       1         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [53]
+-----------------------------------------------
+
+Index by function name
+
+  [48] _GLOBAL__sub_I_main    [27] cv::operator<<(std::ostream&, cv::Ptr<cv::Formatted>) [8] cv::Ptr<cv::Formatted>::operator->() const
+  [49] __static_initialization_and_destruction_0(int, int) [28] cv::operator<<(std::ostream&, cv::Mat const&) [29] cv::Ptr<cv::Formatter>::operator->() const
+  [10] __gthread_active_p()   [39] cv::FileStorage& cv::operator<< <MyData>(cv::FileStorage&, MyData const&) [46] cv::MatExpr::operator cv::Mat() const
+  [35] read(cv::FileNode const&, MyData&, MyData const&) [40] cv::FileStorage& cv::operator<< <cv::Mat>(cv::FileStorage&, cv::Mat const&) [23] cv::FileNode::operator std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >[abi:cxx11]() const
+  [37] write(cv::FileStorage&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, MyData const&) [41] cv::FileStorage& cv::operator<< <double>(cv::FileStorage&, double const&) [47] MyData::write(cv::FileStorage&) const
+  [13] cv::Mat::release()     [42] cv::FileStorage& cv::operator<< <int>(cv::FileStorage&, int const&) [9] std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::get() const
+  [19] cv::Mat::Mat()         [36] void cv::operator>><MyData>(cv::FileNode const&, MyData&) [30] std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::get() const
+  [15] cv::Mat::~Mat()        [43] void cv::operator>><cv::Mat>(cv::FileNode const&, cv::Mat&) [31] std::shared_ptr<cv::Formatted>::~shared_ptr()
+  [25] cv::Ptr<cv::Formatted>::~Ptr() [44] MyData::read(cv::FileNode const&) [32] std::shared_ptr<cv::Formatter>::~shared_ptr()
+  [26] cv::Ptr<cv::Formatter>::~Ptr() [45] MyData::MyData(int) [33] std::__shared_ptr<cv::Formatted, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  [50] cv::Mat_<double>::eye(int, int) [22] MyData::MyData() [34] std::__shared_ptr<cv::Formatter, (__gnu_cxx::_Lock_policy)2>::~__shared_ptr()
+  [51] cv::Mat_<double>::zeros(int, int) [18] MyData::~MyData() [16] std::__shared_count<(__gnu_cxx::_Lock_policy)2>::~__shared_count()
+  [38] cv::MatExpr::~MatExpr() [52] MyData::operator=(MyData const&) [17] std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+  [20] cv::MatSize::MatSize(int*) [11] __gnu_cxx::__exchange_and_add(int volatile*, int) [24] operator<<(std::ostream&, MyData const&)
+  [21] cv::MatStep::MatStep(unsigned long) [12] __gnu_cxx::__exchange_and_add_dispatch(int*, int)
+  [14] cv::operator<<(cv::FileStorage&, char const*) [53] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const

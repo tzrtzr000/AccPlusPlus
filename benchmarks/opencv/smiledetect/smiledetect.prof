@@ -1,0 +1,267 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00   156623     0.00     0.00  cv::Mat::release()
+  0.00      0.00     0.00     9540     0.00     0.00  cv::_InputArray::init(int, void const*)
+  0.00      0.00     0.00     7950     0.00     0.00  cv::Size_<int>::Size_()
+  0.00      0.00     0.00     6360     0.00     0.00  cv::_InputArray::~_InputArray()
+  0.00      0.00     0.00     3180     0.00     0.00  cv::_InputArray::_InputArray()
+  0.00      0.00     0.00     3180     0.00     0.00  cv::_InputArray::_InputArray(cv::Mat const&)
+  0.00      0.00     0.00     3180     0.00     0.00  cv::_OutputArray::_OutputArray(cv::Mat&)
+  0.00      0.00     0.00     3180     0.00     0.00  cv::_OutputArray::~_OutputArray()
+  0.00      0.00     0.00     3180     0.00     0.00  cv::MatStep::operator[](int)
+  0.00      0.00     0.00     2387     0.00     0.00  cv::Mat::Mat()
+  0.00      0.00     0.00     2387     0.00     0.00  cv::Mat::~Mat()
+  0.00      0.00     0.00     2387     0.00     0.00  cv::MatSize::MatSize(int*)
+  0.00      0.00     0.00     2387     0.00     0.00  cv::MatStep::MatStep(unsigned long)
+  0.00      0.00     0.00     1590     0.00     0.00  __gnu_cxx::new_allocator<cv::Rect_<int> >::new_allocator()
+  0.00      0.00     0.00     1590     0.00     0.00  __gnu_cxx::new_allocator<cv::Rect_<int> >::~new_allocator()
+  0.00      0.00     0.00     1590     0.00     0.00  std::allocator<cv::Rect_<int> >::allocator()
+  0.00      0.00     0.00     1590     0.00     0.00  std::allocator<cv::Rect_<int> >::~allocator()
+  0.00      0.00     0.00     1590     0.00     0.00  void std::_Destroy_aux<true>::__destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*)
+  0.00      0.00     0.00     1590     0.00     0.00  std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00     1590     0.00     0.00  std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00     1590     0.00     0.00  std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_deallocate(cv::Rect_<int>*, unsigned long)
+  0.00      0.00     0.00     1590     0.00     0.00  std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_get_Tp_allocator()
+  0.00      0.00     0.00     1590     0.00     0.00  std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_base()
+  0.00      0.00     0.00     1590     0.00     0.00  std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~_Vector_base()
+  0.00      0.00     0.00     1590     0.00     0.00  std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::vector()
+  0.00      0.00     0.00     1590     0.00     0.00  std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~vector()
+  0.00      0.00     0.00     1590     0.00     0.00  void std::_Destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*)
+  0.00      0.00     0.00     1590     0.00     0.00  void std::_Destroy<cv::Rect_<int>*, cv::Rect_<int> >(cv::Rect_<int>*, cv::Rect_<int>*, std::allocator<cv::Rect_<int> >&)
+  0.00      0.00     0.00      796     0.00     0.00  cv::Mat::empty() const
+  0.00      0.00     0.00      795     0.00     0.00  detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool)
+  0.00      0.00     0.00      795     0.00     0.00  cv::Size_<int>::Size_(int, int)
+  0.00      0.00     0.00      795     0.00     0.00  cv::Mat::clone() const
+  0.00      0.00     0.00      795     0.00     0.00  cv::Mat::total() const
+  0.00      0.00     0.00      795     0.00     0.00  std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::size() const
+  0.00      0.00     0.00       72     0.00     0.00  __gnu_cxx::new_allocator<cv::Rect_<int> >::deallocate(cv::Rect_<int>*, unsigned long)
+  0.00      0.00     0.00       72     0.00     0.00  std::allocator_traits<std::allocator<cv::Rect_<int> > >::deallocate(std::allocator<cv::Rect_<int> >&, cv::Rect_<int>*, unsigned long)
+  0.00      0.00     0.00        8     0.00     0.00  cv::Vec<double, 4>::Vec()
+  0.00      0.00     0.00        8     0.00     0.00  cv::Matx<double, 4, 1>::Matx()
+  0.00      0.00     0.00        8     0.00     0.00  cv::Scalar_<double>::Scalar_(double, double, double, double)
+  0.00      0.00     0.00        3     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__Z11cascadeNameB5cxx11
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  help(char const**)
+  0.00      0.00     0.00        1     0.00     0.00  cv::samples::findFileOrKeep(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool)
+  0.00      0.00     0.00        1     0.00     0.00  int cv::CommandLineParser::get<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00     795/156623      cv::Mat::operator=(cv::Mat&&) [58]
+                0.00    0.00  155828/156623      cv::Mat::~Mat() [18]
+[8]      0.0    0.00    0.00  156623         cv::Mat::release() [8]
+-----------------------------------------------
+                0.00    0.00    3180/9540        cv::_InputArray::_InputArray() [12]
+                0.00    0.00    3180/9540        cv::_InputArray::_InputArray(cv::Mat const&) [13]
+                0.00    0.00    3180/9540        cv::_OutputArray::_OutputArray(cv::Mat&) [14]
+[9]      0.0    0.00    0.00    9540         cv::_InputArray::init(int, void const*) [9]
+-----------------------------------------------
+                0.00    0.00    1590/7950        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+                0.00    0.00    3180/7950        cv::_InputArray::_InputArray() [12]
+                0.00    0.00    3180/7950        cv::_InputArray::_InputArray(cv::Mat const&) [13]
+[10]     0.0    0.00    0.00    7950         cv::Size_<int>::Size_() [10]
+-----------------------------------------------
+                0.00    0.00    3180/6360        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+                0.00    0.00    3180/6360        cv::_OutputArray::~_OutputArray() [15]
+[11]     0.0    0.00    0.00    6360         cv::_InputArray::~_InputArray() [11]
+-----------------------------------------------
+                0.00    0.00    3180/3180        cv::_OutputArray::_OutputArray(cv::Mat&) [14]
+[12]     0.0    0.00    0.00    3180         cv::_InputArray::_InputArray() [12]
+                0.00    0.00    3180/7950        cv::Size_<int>::Size_() [10]
+                0.00    0.00    3180/9540        cv::_InputArray::init(int, void const*) [9]
+-----------------------------------------------
+                0.00    0.00    3180/3180        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[13]     0.0    0.00    0.00    3180         cv::_InputArray::_InputArray(cv::Mat const&) [13]
+                0.00    0.00    3180/7950        cv::Size_<int>::Size_() [10]
+                0.00    0.00    3180/9540        cv::_InputArray::init(int, void const*) [9]
+-----------------------------------------------
+                0.00    0.00     795/3180        cv::Mat::clone() const [39]
+                0.00    0.00    2385/3180        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[14]     0.0    0.00    0.00    3180         cv::_OutputArray::_OutputArray(cv::Mat&) [14]
+                0.00    0.00    3180/3180        cv::_InputArray::_InputArray() [12]
+                0.00    0.00    3180/9540        cv::_InputArray::init(int, void const*) [9]
+-----------------------------------------------
+                0.00    0.00     795/3180        cv::Mat::clone() const [39]
+                0.00    0.00    2385/3180        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[15]     0.0    0.00    0.00    3180         cv::_OutputArray::~_OutputArray() [15]
+                0.00    0.00    3180/6360        cv::_InputArray::~_InputArray() [11]
+-----------------------------------------------
+                0.00    0.00    3180/3180        cv::Mat::operator=(cv::Mat&&) [58]
+[16]     0.0    0.00    0.00    3180         cv::MatStep::operator[](int) [16]
+-----------------------------------------------
+                0.00    0.00       2/2387        main [6]
+                0.00    0.00     795/2387        cv::Mat::clone() const [39]
+                0.00    0.00    1590/2387        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[17]     0.0    0.00    0.00    2387         cv::Mat::Mat() [17]
+                0.00    0.00    2387/2387        cv::MatSize::MatSize(int*) [19]
+                0.00    0.00    2387/2387        cv::MatStep::MatStep(unsigned long) [20]
+-----------------------------------------------
+                0.00    0.00     797/2387        main [6]
+                0.00    0.00    1590/2387        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[18]     0.0    0.00    0.00    2387         cv::Mat::~Mat() [18]
+                0.00    0.00  155828/156623      cv::Mat::release() [8]
+-----------------------------------------------
+                0.00    0.00    2387/2387        cv::Mat::Mat() [17]
+[19]     0.0    0.00    0.00    2387         cv::MatSize::MatSize(int*) [19]
+-----------------------------------------------
+                0.00    0.00    2387/2387        cv::Mat::Mat() [17]
+[20]     0.0    0.00    0.00    2387         cv::MatStep::MatStep(unsigned long) [20]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::allocator<cv::Rect_<int> >::allocator() [23]
+[21]     0.0    0.00    0.00    1590         __gnu_cxx::new_allocator<cv::Rect_<int> >::new_allocator() [21]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::allocator<cv::Rect_<int> >::~allocator() [24]
+[22]     0.0    0.00    0.00    1590         __gnu_cxx::new_allocator<cv::Rect_<int> >::~new_allocator() [22]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::_Vector_impl() [26]
+[23]     0.0    0.00    0.00    1590         std::allocator<cv::Rect_<int> >::allocator() [23]
+                0.00    0.00    1590/1590        __gnu_cxx::new_allocator<cv::Rect_<int> >::new_allocator() [21]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::~_Vector_impl() [27]
+[24]     0.0    0.00    0.00    1590         std::allocator<cv::Rect_<int> >::~allocator() [24]
+                0.00    0.00    1590/1590        __gnu_cxx::new_allocator<cv::Rect_<int> >::~new_allocator() [22]
+-----------------------------------------------
+                0.00    0.00    1590/1590        void std::_Destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*) [34]
+[25]     0.0    0.00    0.00    1590         void std::_Destroy_aux<true>::__destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*) [25]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_base() [30]
+[26]     0.0    0.00    0.00    1590         std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::_Vector_impl() [26]
+                0.00    0.00    1590/1590        std::allocator<cv::Rect_<int> >::allocator() [23]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~_Vector_base() [31]
+[27]     0.0    0.00    0.00    1590         std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::~_Vector_impl() [27]
+                0.00    0.00    1590/1590        std::allocator<cv::Rect_<int> >::~allocator() [24]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~_Vector_base() [31]
+[28]     0.0    0.00    0.00    1590         std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_deallocate(cv::Rect_<int>*, unsigned long) [28]
+                0.00    0.00      72/72          std::allocator_traits<std::allocator<cv::Rect_<int> > >::deallocate(std::allocator<cv::Rect_<int> >&, cv::Rect_<int>*, unsigned long) [43]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~vector() [33]
+[29]     0.0    0.00    0.00    1590         std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_get_Tp_allocator() [29]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::vector() [32]
+[30]     0.0    0.00    0.00    1590         std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_base() [30]
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::_Vector_impl() [26]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~vector() [33]
+[31]     0.0    0.00    0.00    1590         std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~_Vector_base() [31]
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_deallocate(cv::Rect_<int>*, unsigned long) [28]
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::~_Vector_impl() [27]
+-----------------------------------------------
+                0.00    0.00    1590/1590        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[32]     0.0    0.00    0.00    1590         std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::vector() [32]
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_base() [30]
+-----------------------------------------------
+                0.00    0.00    1590/1590        detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[33]     0.0    0.00    0.00    1590         std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~vector() [33]
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_get_Tp_allocator() [29]
+                0.00    0.00    1590/1590        void std::_Destroy<cv::Rect_<int>*, cv::Rect_<int> >(cv::Rect_<int>*, cv::Rect_<int>*, std::allocator<cv::Rect_<int> >&) [35]
+                0.00    0.00    1590/1590        std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~_Vector_base() [31]
+-----------------------------------------------
+                0.00    0.00    1590/1590        void std::_Destroy<cv::Rect_<int>*, cv::Rect_<int> >(cv::Rect_<int>*, cv::Rect_<int>*, std::allocator<cv::Rect_<int> >&) [35]
+[34]     0.0    0.00    0.00    1590         void std::_Destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*) [34]
+                0.00    0.00    1590/1590        void std::_Destroy_aux<true>::__destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*) [25]
+-----------------------------------------------
+                0.00    0.00    1590/1590        std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~vector() [33]
+[35]     0.0    0.00    0.00    1590         void std::_Destroy<cv::Rect_<int>*, cv::Rect_<int> >(cv::Rect_<int>*, cv::Rect_<int>*, std::allocator<cv::Rect_<int> >&) [35]
+                0.00    0.00    1590/1590        void std::_Destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*) [34]
+-----------------------------------------------
+                0.00    0.00     796/796         main [6]
+[36]     0.0    0.00    0.00     796         cv::Mat::empty() const [36]
+                0.00    0.00     795/795         cv::Mat::total() const [40]
+-----------------------------------------------
+                0.00    0.00     795/795         main [6]
+[37]     0.0    0.00    0.00     795         detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+                0.00    0.00    3180/3180        cv::_InputArray::_InputArray(cv::Mat const&) [13]
+                0.00    0.00    3180/6360        cv::_InputArray::~_InputArray() [11]
+                0.00    0.00    2385/3180        cv::_OutputArray::_OutputArray(cv::Mat&) [14]
+                0.00    0.00    2385/3180        cv::_OutputArray::~_OutputArray() [15]
+                0.00    0.00    1590/1590        std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::vector() [32]
+                0.00    0.00    1590/2387        cv::Mat::Mat() [17]
+                0.00    0.00    1590/7950        cv::Size_<int>::Size_() [10]
+                0.00    0.00    1590/2387        cv::Mat::~Mat() [18]
+                0.00    0.00    1590/1590        std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~vector() [33]
+                0.00    0.00     795/795         cv::Size_<int>::Size_(int, int) [38]
+                0.00    0.00     795/795         std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::size() const [41]
+                0.00    0.00       8/8           cv::Scalar_<double>::Scalar_(double, double, double, double) [46]
+-----------------------------------------------
+                0.00    0.00     795/795         detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[38]     0.0    0.00    0.00     795         cv::Size_<int>::Size_(int, int) [38]
+-----------------------------------------------
+                0.00    0.00     795/795         main [6]
+[39]     0.0    0.00    0.00     795         cv::Mat::clone() const [39]
+                0.00    0.00     795/2387        cv::Mat::Mat() [17]
+                0.00    0.00     795/3180        cv::_OutputArray::_OutputArray(cv::Mat&) [14]
+                0.00    0.00     795/3180        cv::_OutputArray::~_OutputArray() [15]
+-----------------------------------------------
+                0.00    0.00     795/795         cv::Mat::empty() const [36]
+[40]     0.0    0.00    0.00     795         cv::Mat::total() const [40]
+-----------------------------------------------
+                0.00    0.00     795/795         detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[41]     0.0    0.00    0.00     795         std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::size() const [41]
+-----------------------------------------------
+                0.00    0.00      72/72          std::allocator_traits<std::allocator<cv::Rect_<int> > >::deallocate(std::allocator<cv::Rect_<int> >&, cv::Rect_<int>*, unsigned long) [43]
+[42]     0.0    0.00    0.00      72         __gnu_cxx::new_allocator<cv::Rect_<int> >::deallocate(cv::Rect_<int>*, unsigned long) [42]
+-----------------------------------------------
+                0.00    0.00      72/72          std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_deallocate(cv::Rect_<int>*, unsigned long) [28]
+[43]     0.0    0.00    0.00      72         std::allocator_traits<std::allocator<cv::Rect_<int> > >::deallocate(std::allocator<cv::Rect_<int> >&, cv::Rect_<int>*, unsigned long) [43]
+                0.00    0.00      72/72          __gnu_cxx::new_allocator<cv::Rect_<int> >::deallocate(cv::Rect_<int>*, unsigned long) [42]
+-----------------------------------------------
+                0.00    0.00       8/8           cv::Scalar_<double>::Scalar_(double, double, double, double) [46]
+[44]     0.0    0.00    0.00       8         cv::Vec<double, 4>::Vec() [44]
+                0.00    0.00       8/8           cv::Matx<double, 4, 1>::Matx() [45]
+-----------------------------------------------
+                0.00    0.00       8/8           cv::Vec<double, 4>::Vec() [44]
+[45]     0.0    0.00    0.00       8         cv::Matx<double, 4, 1>::Matx() [45]
+-----------------------------------------------
+                0.00    0.00       8/8           detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [37]
+[46]     0.0    0.00    0.00       8         cv::Scalar_<double>::Scalar_(double, double, double, double) [46]
+                0.00    0.00       8/8           cv::Vec<double, 4>::Vec() [44]
+-----------------------------------------------
+                0.00    0.00       3/3           main [6]
+[47]     0.0    0.00    0.00       3         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [47]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [119]
+[48]     0.0    0.00    0.00       1         _GLOBAL__sub_I__Z11cascadeNameB5cxx11 [48]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [49]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__Z11cascadeNameB5cxx11 [48]
+[49]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [49]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[50]     0.0    0.00    0.00       1         help(char const**) [50]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[51]     0.0    0.00    0.00       1         cv::samples::findFileOrKeep(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) [51]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[52]     0.0    0.00    0.00       1         int cv::CommandLineParser::get<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [52]
+-----------------------------------------------
+
+Index by function name
+
+  [48] _GLOBAL__sub_I__Z11cascadeNameB5cxx11 [38] cv::Size_<int>::Size_(int, int) [41] std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::size() const
+  [37] detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double, bool) [10] cv::Size_<int>::Size_() [23] std::allocator<cv::Rect_<int> >::allocator()
+  [49] __static_initialization_and_destruction_0(int, int) [19] cv::MatSize::MatSize(int*) [24] std::allocator<cv::Rect_<int> >::~allocator()
+  [50] help(char const**)     [20] cv::MatStep::MatStep(unsigned long) [25] void std::_Destroy_aux<true>::__destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*)
+   [9] cv::_InputArray::init(int, void const*) [16] cv::MatStep::operator[](int) [26] std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::_Vector_impl()
+  [12] cv::_InputArray::_InputArray() [46] cv::Scalar_<double>::Scalar_(double, double, double, double) [27] std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_impl::~_Vector_impl()
+  [13] cv::_InputArray::_InputArray(cv::Mat const&) [51] cv::samples::findFileOrKeep(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) [28] std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_deallocate(cv::Rect_<int>*, unsigned long)
+  [11] cv::_InputArray::~_InputArray() [42] __gnu_cxx::new_allocator<cv::Rect_<int> >::deallocate(cv::Rect_<int>*, unsigned long) [29] std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_M_get_Tp_allocator()
+  [14] cv::_OutputArray::_OutputArray(cv::Mat&) [21] __gnu_cxx::new_allocator<cv::Rect_<int> >::new_allocator() [30] std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::_Vector_base()
+  [15] cv::_OutputArray::~_OutputArray() [22] __gnu_cxx::new_allocator<cv::Rect_<int> >::~new_allocator() [31] std::_Vector_base<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~_Vector_base()
+   [8] cv::Mat::release()     [47] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [43] std::allocator_traits<std::allocator<cv::Rect_<int> > >::deallocate(std::allocator<cv::Rect_<int> >&, cv::Rect_<int>*, unsigned long)
+  [17] cv::Mat::Mat()         [52] int cv::CommandLineParser::get<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const [32] std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::vector()
+  [18] cv::Mat::~Mat()        [39] cv::Mat::clone() const [33] std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >::~vector()
+  [44] cv::Vec<double, 4>::Vec() [36] cv::Mat::empty() const [34] void std::_Destroy<cv::Rect_<int>*>(cv::Rect_<int>*, cv::Rect_<int>*)
+  [45] cv::Matx<double, 4, 1>::Matx() [40] cv::Mat::total() const [35] void std::_Destroy<cv::Rect_<int>*, cv::Rect_<int> >(cv::Rect_<int>*, cv::Rect_<int>*, std::allocator<cv::Rect_<int> >&)
