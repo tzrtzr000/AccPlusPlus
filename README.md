@@ -87,8 +87,14 @@ push_back_line_by_line.o: push_back.cpp
 
 4. Discuss with Prof. by this Friday (11/22)
 
-    - [ ] Memory slab plot for memory allocation like Figure  8(a), similar to the idea of "heap manager" for PHP acceleration. 
+    - [x] Memory slab plot for memory allocation like Figure  8(a), similar to the idea of "heap manager" for PHP acceleration. 
 
     ![alt text](./ref/mem_slob_cdf.PNG "memory slabs' CDF")
 
-    - [ ] "psudo-deep copy" upon value assignment (<a href="https://www.artima.com/cppsource/rvalue.html" target="_blank">Lvalue vs Rvalue</a>): 
+    - [x] "psudo-deep copy" upon value assignment (<a href="https://www.artima.com/cppsource/rvalue.html" target="_blank">Lvalue vs Rvalue</a>): 
+
+5. Opencv:
+    - [ ] Image Processing: **3calibration** **digits** **pca** **dft** **laplace** **kalman** **contour2**
+    - [ ] Algorithm: **convexhull** **travelsalesman**
+    - [ ] Video: **disopticalflow** **smiledetect**
+    - [ ] IO: **filestorage** **treeengine**
