@@ -1,16 +1,21 @@
 In total there are 7 folder/files
+
 doc: this contains the Github README.md which me alone maintains throughtout the entire project. besides:  I am mainly responsible for
 the repository update, which can be shown in the commit histroy of our shared Github repository, not attached here
-eigen: this contains my exploration getting familar with gprof
+
+eigen: this contains my exploration getting familar with gprof and eigen as an numerical C++ library
+
 final_presentation: This continas my work on presentation part: mainly present my idea of borrow logic: potentially shareing the entries with large type sizes to those with
 smaller type size. A geometric sequence of 2 helps with memory alignment. 
+
 opencv: this contains my profiling effort for opencv samples applications under /opencv/samples/cpp/ . There are in total 7 files being profiled and all.txt represents my effort
-of mereging all (including other profiling results from my group) by taking the top 10 most time-consuming result. Note, in order to not generate trivial 0 seconds results, I manually
+of mereging all (including other profiling results from my group) by taking the top 10 most time-consuming result for each applicatoin. Note, in order to not generate trivial 0 seconds results, I manually
 repeat the core algorithm method execution to scale the number of runs in order to counter the sampling error scheme used by Gprof. The cpp files here I only inserted for loop at the 
 outmost function call  level.  Beside, compile_all.sh is what I made for my group to compile other application I assigned udner doc/README.m . build_open_cv.sh is for building the opencv only. 
 
 pin: this contains my modification of use of pin tools to trace memory access and their content, which learns from https://www.dreamlandcoder.com/system-security/how-i-learned/intel_pin/ 
-simple_push_back: this contains my exploration of enabling of function call graph tracing, which helps to identify the leaf function 
+simple_push_back: The cpp source code is written by Chen Chen and this contains my exploration of enabling of function call graph tracing, which helps to identify the leaf function 
+
 borrow.tex: This contains the  pseducode borrow logic unit for my solely designed heap manager for C++, other parts of the heap manager are truly inspired from "Mallacc: Accelerating Memory Allocation - ACM Digital Library"
 and "Architectural Support for Server-Side PHP Processing" paper. 
 
