@@ -1,0 +1,94 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00    10678     0.00     0.00  cv::Mat::release()
+  0.00      0.00     0.00     3888     0.00     0.00  cv::MatStep::operator[](int)
+  0.00      0.00     0.00      392     0.00     0.00  cv::MatStep::operator[](int) const
+  0.00      0.00     0.00       17     0.00     0.00  cv::_InputArray::init(int, void const*)
+  0.00      0.00     0.00       12     0.00     0.00  cv::_InputArray::~_InputArray()
+  0.00      0.00     0.00       12     0.00     0.00  cv::Size_<int>::Size_()
+  0.00      0.00     0.00        8     0.00     0.00  cv::_InputArray::_InputArray(cv::Mat const&)
+  0.00      0.00     0.00        8     0.00     0.00  cv::MatSize::MatSize(int*)
+  0.00      0.00     0.00        8     0.00     0.00  cv::MatStep::MatStep(unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      0.00     0.00        6     0.00     0.00  cv::MatIterator_<float>::operator++()
+  0.00      0.00     0.00        6     0.00     0.00  cv::MatConstIterator::operator++()
+  0.00      0.00     0.00        6     0.00     0.00  cv::Mat::Mat()
+  0.00      0.00     0.00        6     0.00     0.00  cv::Mat::~Mat()
+  0.00      0.00     0.00        6     0.00     0.00  cv::MatIterator_<float>::operator*() const
+  0.00      0.00     0.00        4     0.00     0.00  cv::_InputArray::_InputArray()
+  0.00      0.00     0.00        4     0.00     0.00  cv::_OutputArray::~_OutputArray()
+  0.00      0.00     0.00        4     0.00     0.00  cv::MatCommaInitializer_<float>& cv::MatCommaInitializer_<float>::operator,<double>(double)
+  0.00      0.00     0.00        4     0.00     0.00  cv::RNG::next()
+  0.00      0.00     0.00        3     0.00     0.00  cv::_OutputArray::_OutputArray(cv::Mat&)
+  0.00      0.00     0.00        3     0.00     0.00  cv::Size_<int>::Size_(int, int)
+  0.00      0.00     0.00        3     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+  0.00      0.00     0.00        3     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(int, bool) const
+  0.00      0.00     0.00        3     0.00     0.00  cv::Mat::total() const
+  0.00      0.00     0.00        2     0.00     0.00  cv::MatCommaInitializer_<float>& cv::MatCommaInitializer_<float>::operator,<float>(float)
+  0.00      0.00     0.00        2     0.00     0.00  cv::Mat::create(int, int, int)
+  0.00      0.00     0.00        2     0.00     0.00  cv::Mat::Mat(int, int, int)
+  0.00      0.00     0.00        2     0.00     0.00  cv::RNG::uniform(float, float)
+  0.00      0.00     0.00        2     0.00     0.00  cv::RNG::operator float()
+  0.00      0.00     0.00        2     0.00     0.00  cv::Vec<double, 4>::Vec()
+  0.00      0.00     0.00        2     0.00     0.00  cv::Mat_<float>::~Mat_()
+  0.00      0.00     0.00        2     0.00     0.00  cv::Matx<double, 4, 1>::Matx()
+  0.00      0.00     0.00        2     0.00     0.00  cv::Scalar_<double>::Scalar_()
+  0.00      0.00     0.00        2     0.00     0.00  int cv::CommandLineParser::get<int>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+  0.00      0.00     0.00        2     0.00     0.00  cv::Mat::type() const
+  0.00      0.00     0.00        2     0.00     0.00  cv::Mat::empty() const
+  0.00      0.00     0.00        2     0.00     0.00  bool std::operator!=<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  help()
+  0.00      0.00     0.00        1     0.00     0.00  saveWarp(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, cv::Mat const&, int)
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatIterator_<float>::MatIterator_(cv::Mat_<float>*)
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatIterator_<float>::MatIterator_(cv::MatIterator_<float> const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::TermCriteria::TermCriteria(int, int, double)
+  0.00      0.00     0.00        1     0.00     0.00  cv::_OutputArray::_OutputArray()
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatConstIterator::MatConstIterator(cv::Mat const*)
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatConstIterator::MatConstIterator(cv::MatConstIterator const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatConstIterator_<float>::MatConstIterator_(cv::Mat_<float> const*)
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatConstIterator_<float>::MatConstIterator_(cv::MatConstIterator_<float> const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::_InputOutputArray::_InputOutputArray(cv::Mat&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::_InputOutputArray::~_InputOutputArray()
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatCommaInitializer_<float>::MatCommaInitializer_(cv::Mat_<float>*)
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatCommaInitializer_<float>::MatCommaInitializer_(cv::MatCommaInitializer_<float> const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat::operator=(cv::Mat&&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat::operator=(cv::MatExpr const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat::operator=(cv::Mat const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::RNG::uniform(double, double)
+  0.00      0.00     0.00        1     0.00     0.00  cv::RNG::RNG(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  cv::RNG::operator double()
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat_<float>::Mat_(cv::Mat const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat_<float>::Mat_(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat_<float>::operator=(cv::Mat const&)
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatExpr::~MatExpr()
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatCommaInitializer_<float> cv::operator<< <float, double>(cv::Mat_<float> const&, double)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<int>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<int>::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  double cv::CommandLineParser::get<double>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatCommaInitializer_<float>::operator cv::Mat_<float>() const
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat::isContinuous() const
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat::ptr(int) const
+  0.00      0.00     0.00        1     0.00     0.00  float const* cv::Mat::ptr<float>(int) const
+  0.00      0.00     0.00        1     0.00     0.00  cv::Mat::elemSize() const
+  0.00      0.00     0.00        1     0.00     0.00  cv::MatSize::operator()() const
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<int>::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<int>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::~_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  void std::_Destroy<int*>(int*, int*)
+  0.00      0.00     0.00        1     0.00     0.00  void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
+  0.00      0.00     0.00        1     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)

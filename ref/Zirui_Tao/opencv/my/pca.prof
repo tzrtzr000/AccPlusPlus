@@ -1,0 +1,106 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 33.35      0.02     0.02  1050175     0.00     0.00  cv::Mat::release()
+ 16.68      0.03     0.01   200045     0.00     0.00  cv::Size_<int>::Size_()
+ 16.68      0.04     0.01    50020     0.00     0.00  cv::Mat::row(int) const
+ 16.68      0.05     0.01    50001     0.00     0.00  toGrayscale(cv::_InputArray const&)
+ 16.68      0.06     0.01        1    10.01    10.01  std::vector<int, std::allocator<int> >::~vector()
+  0.00      0.06     0.00   800176     0.00     0.00  cv::MatStep::operator[](int)
+  0.00      0.06     0.00   400084     0.00     0.00  cv::MatStep::operator[](int) const
+  0.00      0.06     0.00   300141     0.00     0.00  cv::Mat::~Mat()
+  0.00      0.06     0.00   300085     0.00     0.00  cv::_InputArray::init(int, void const*)
+  0.00      0.06     0.00   250081     0.00     0.00  cv::MatSize::MatSize(int*)
+  0.00      0.06     0.00   250061     0.00     0.00  cv::MatStep::MatStep(unsigned long)
+  0.00      0.06     0.00   200045     0.00     0.00  cv::_InputArray::~_InputArray()
+  0.00      0.06     0.00   200038     0.00     0.00  cv::Mat::Mat(cv::Mat const&)
+  0.00      0.06     0.00   150006     0.00     0.00  cv::_InputArray::_InputArray(cv::Mat const&)
+  0.00      0.06     0.00   100040     0.00     0.00  cv::Range::Range(int, int)
+  0.00      0.06     0.00   100004     0.00     0.00  std::vector<cv::Mat, std::allocator<cv::Mat> >::operator[](unsigned long)
+  0.00      0.06     0.00   100003     0.00     0.00  cv::Mat::channels() const
+  0.00      0.06     0.00   100002     0.00     0.00  cv::Mat::operator=(cv::Mat&&)
+  0.00      0.06     0.00    50039     0.00     0.00  cv::_InputArray::_InputArray()
+  0.00      0.06     0.00    50039     0.00     0.00  cv::_OutputArray::~_OutputArray()
+  0.00      0.06     0.00    50022     0.00     0.00  cv::Mat::Mat()
+  0.00      0.06     0.00    50020     0.00     0.00  cv::Range::all()
+  0.00      0.06     0.00    50001     0.00     0.00  cv::_OutputArray::_OutputArray()
+  0.00      0.06     0.00    50001     0.00     0.00  cv::_InputOutputArray::_InputOutputArray(cv::Mat&)
+  0.00      0.06     0.00    50001     0.00     0.00  cv::_InputOutputArray::~_InputOutputArray()
+  0.00      0.06     0.00    50001     0.00     0.00  cv::_InputArray::getMat(int) const
+  0.00      0.06     0.00       81     0.00     0.00  cv::Mat* std::__addressof<cv::Mat>(cv::Mat&)
+  0.00      0.06     0.00       66     0.00     0.00  cv::Mat&& std::forward<cv::Mat>(std::remove_reference<cv::Mat>::type&)
+  0.00      0.06     0.00       57     0.00     0.00  std::vector<cv::Mat, std::allocator<cv::Mat> >::size() const
+  0.00      0.06     0.00       51     0.00     0.00  operator new(unsigned long, void*)
+  0.00      0.06     0.00       50     0.00     0.00  void std::_Destroy<cv::Mat>(cv::Mat*)
+  0.00      0.06     0.00       38     0.00     0.00  cv::_OutputArray::_OutputArray(cv::Mat&)
+  0.00      0.06     0.00       31     0.00     0.00  void std::_Construct<cv::Mat, cv::Mat&>(cv::Mat*, cv::Mat&)
+  0.00      0.06     0.00       31     0.00     0.00  cv::Mat& std::forward<cv::Mat&>(std::remove_reference<cv::Mat&>::type&)
+  0.00      0.06     0.00       21     0.00     0.00  __gnu_cxx::new_allocator<cv::Mat>::max_size() const
+  0.00      0.06     0.00       21     0.00     0.00  std::vector<cv::Mat, std::allocator<cv::Mat> >::operator[](unsigned long) const
+  0.00      0.06     0.00       20     0.00     0.00  cv::Mat::Mat(cv::Mat&&)
+  0.00      0.06     0.00       20     0.00     0.00  cv::MatStep::MatStep()
+  0.00      0.06     0.00       20     0.00     0.00  _ZN9__gnu_cxx13new_allocatorIN2cv3MatEE9constructIS2_IS2_EEEvPT_DpOT0_
+  0.00      0.06     0.00       20     0.00     0.00  _ZNSt16allocator_traitsISaIN2cv3MatEEE9constructIS1_IS1_EEEvRS2_PT_DpOT0_
+  0.00      0.06     0.00       19     0.00     0.00  cv::Mat::clone() const
+  0.00      0.06     0.00       19     0.00     0.00  void std::vector<cv::Mat, std::allocator<cv::Mat> >::emplace_back<cv::Mat>(cv::Mat&&)
+  0.00      0.06     0.00       19     0.00     0.00  std::vector<cv::Mat, std::allocator<cv::Mat> >::push_back(cv::Mat&&)
+  0.00      0.06     0.00       19     0.00     0.00  std::remove_reference<cv::Mat&>::type&& std::move<cv::Mat&>(cv::Mat&)
+  0.00      0.06     0.00       15     0.00     0.00  std::_Vector_base<cv::Mat, std::allocator<cv::Mat> >::_M_get_Tp_allocator()
+  0.00      0.06     0.00       14     0.00     0.00  std::_Vector_base<cv::Mat, std::allocator<cv::Mat> >::_M_get_Tp_allocator() const
+  0.00      0.06     0.00       14     0.00     0.00  std::vector<cv::Mat, std::allocator<cv::Mat> >::max_size() const
+  0.00      0.06     0.00       14     0.00     0.00  std::allocator_traits<std::allocator<cv::Mat> >::max_size(std::allocator<cv::Mat> const&)
+  0.00      0.06     0.00       14     0.00     0.00  cv::Mat* std::__make_move_if_noexcept_iterator<cv::Mat*, cv::Mat*>(cv::Mat*)
+  0.00      0.06     0.00        8     0.00     0.00  void std::_Destroy_aux<false>::__destroy<cv::Mat*>(cv::Mat*, cv::Mat*)
+  0.00      0.06     0.00        8     0.00     0.00  std::_Vector_base<cv::Mat, std::allocator<cv::Mat> >::_M_deallocate(cv::Mat*, unsigned long)
+  0.00      0.06     0.00        8     0.00     0.00  void std::_Destroy<cv::Mat*>(cv::Mat*, cv::Mat*)
+  0.00      0.06     0.00        8     0.00     0.00  void std::_Destroy<cv::Mat*, cv::Mat>(cv::Mat*, cv::Mat*, std::allocator<cv::Mat>&)
+  0.00      0.06     0.00        7     0.00     0.00  __gnu_cxx::new_allocator<cv::Mat>::allocate(unsigned long, void const*)
+  0.00      0.06     0.00        7     0.00     0.00  std::vector<cv::Mat, std::allocator<cv::Mat> >::_M_check_len(unsigned long, char const*) const
+  0.00      0.06     0.00        7     0.00     0.00  std::_Vector_base<cv::Mat, std::allocator<cv::Mat> >::_M_allocate(unsigned long)
+  0.00      0.06     0.00        7     0.00     0.00  std::allocator_traits<std::allocator<cv::Mat> >::allocate(std::allocator<cv::Mat>&, unsigned long)
+  0.00      0.06     0.00        7     0.00     0.00  cv::Mat* std::__uninitialized_copy<false>::__uninit_copy<cv::Mat*, cv::Mat*>(cv::Mat*, cv::Mat*, cv::Mat*)
+  0.00      0.06     0.00        7     0.00     0.00  cv::Mat* std::uninitialized_copy<cv::Mat*, cv::Mat*>(cv::Mat*, cv::Mat*, cv::Mat*)
+  0.00      0.06     0.00        7     0.00     0.00  cv::Mat* std::__uninitialized_copy_a<cv::Mat*, cv::Mat*, cv::Mat>(cv::Mat*, cv::Mat*, cv::Mat*, std::allocator<cv::Mat>&)
+  0.00      0.06     0.00        7     0.00     0.00  cv::Mat* std::__uninitialized_move_if_noexcept_a<cv::Mat*, cv::Mat*, std::allocator<cv::Mat> >(cv::Mat*, cv::Mat*, cv::Mat*, std::allocator<cv::Mat>&)
+  0.00      0.06     0.00        7     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.06     0.00        6     0.00     0.00  __gnu_cxx::new_allocator<cv::Mat>::deallocate(cv::Mat*, unsigned long)
+  0.00      0.06     0.00        6     0.00     0.00  std::allocator_traits<std::allocator<cv::Mat> >::deallocate(std::allocator<cv::Mat>&, cv::Mat*, unsigned long)
+  0.00      0.06     0.00        6     0.00     0.00  void std::vector<cv::Mat, std::allocator<cv::Mat> >::_M_emplace_back_aux<cv::Mat>(cv::Mat&&)
+  0.00      0.06     0.00        4     0.00     0.00  cv::Mat::operator=(cv::Mat const&)
+  0.00      0.06     0.00        2     0.00     0.00  cv::PCA::~PCA()
+  0.00      0.06     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.06     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.06     0.00        1     0.00     0.00  read_imgList(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<cv::Mat, std::allocator<cv::Mat> >&)
+  0.00      0.06     0.00        1     0.00     0.01  formatImagesForPCA(std::vector<cv::Mat, std::allocator<cv::Mat> > const&)
+  0.00      0.06     0.00        1     0.00     0.00  cv::Mat::create(int, int, int)
+  0.00      0.06     0.00        1     0.00     0.00  cv::Mat::Mat(int, int, int)
+  0.00      0.06     0.00        1     0.00     0.00  cv::PCA::operator=(cv::PCA const&)
+  0.00      0.06     0.00        1     0.00     0.00  params::params()
+  0.00      0.06     0.00        1     0.00     0.00  params::~params()
+  0.00      0.06     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<cv::Mat>::new_allocator()
+  0.00      0.06     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<cv::Mat>::~new_allocator()
+  0.00      0.06     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<int>::new_allocator()
+  0.00      0.06     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<int>::~new_allocator()
+  0.00      0.06     0.00        1     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+  0.00      0.06     0.00        1     0.00     0.00  std::allocator<cv::Mat>::allocator()
+  0.00      0.06     0.00        1     0.00     0.00  std::allocator<cv::Mat>::~allocator()
+  0.00      0.06     0.00        1     0.00     0.00  std::allocator<int>::allocator()
+  0.00      0.06     0.00        1     0.00     0.00  std::allocator<int>::~allocator()
+  0.00      0.06     0.00        1     0.00     0.00  void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<cv::Mat, std::allocator<cv::Mat> >::_Vector_impl::_Vector_impl()
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<cv::Mat, std::allocator<cv::Mat> >::_Vector_impl::~_Vector_impl()
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<cv::Mat, std::allocator<cv::Mat> >::_Vector_base()
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<cv::Mat, std::allocator<cv::Mat> >::~_Vector_base()
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl()
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long)
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator()
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_base()
+  0.00      0.06     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::~_Vector_base()
+  0.00      0.06     0.00        1     0.00     0.00  std::vector<cv::Mat, std::allocator<cv::Mat> >::vector()
+  0.00      0.06     0.00        1     0.00     0.00  std::vector<cv::Mat, std::allocator<cv::Mat> >::~vector()
+  0.00      0.06     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::vector()
+  0.00      0.06     0.00        1     0.00     0.00  void std::_Destroy<int*>(int*, int*)
+  0.00      0.06     0.00        1     0.00     0.00  void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
